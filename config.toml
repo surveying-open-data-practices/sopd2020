@@ -1,8 +1,9 @@
-baseURL = "https://example.org/"
+baseURL = "https://surveying-open-data-practices.github.io/sopd2020"
 languageCode = "en-us"
 title = "Surveying Open Data Practices"
 theme = "navigator-hugo"
 summaryLength = 10
+publishDir = "docs"
 
 # Build robots.txt file
 enableRobotsTXT = true
