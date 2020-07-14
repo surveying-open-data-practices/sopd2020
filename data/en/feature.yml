@@ -1,0 +1,16 @@
+enable  : true
+item  :
+  - icon  : tf-ion-clipboard
+    title : Develop Survey
+    description : >
+      The project will develop a bank of survey questions that can be re-used and is interoperable with other surveys.
+
+  - icon  : tf-ion-folder
+    title : Publish Data
+    description : >
+      The data as well as survey instrument will be made available under open licenses to facilitate re-use.
+
+  - icon  : tf-ion-calculator
+    title : Analysis & Visualisation
+    description : >
+      Data analysis and visualisation scripts will be made available under open licenses. A web app will also be developed.
