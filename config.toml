@@ -1,0 +1,195 @@
+baseURL = "https://surveying-open-data-practices.github.io/sopd2020"
+languageCode = "en-us"
+title = "Surveying Open Data Practices"
+theme = "navigator-hugo"
+summaryLength = 10
+publishDir = "docs"
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = ""
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+# Multilangues setup
+# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
+defaultContentLanguageInSubdir = true
+DefaultContentLanguage = "en"
+
+# Site Params
+[params]
+logo = "images/logo.png"
+
+# Gestion des langues : FR / EN / NL / DE
+[[Params.listeLangues]]
+code = "fr"
+[[Params.listeLangues]]
+code = "en"
+
+# meta data
+author = "Surveying Open Data Practices"
+description = "A project funded by the IDRC hosted at InSYS"
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+############ 1 - Site en FRANCAIS
+[Languages.fr]
+weight = 1
+languageCode = "fr-fr"
+title = "Enquête sur les pratiques en matière de données ouvertes"
+dateFormat = "2 January 2006"
+
+home = "Accueil"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "Les enquêtes sur les pratiques en matière de données ouvertes se dérouleront de juin 2020 à janvier 2021. Le projet est financé par le CRDI et hébergé à InSYS, Université d'Oxford."
+footerServiceTitle = "Services"
+footerQuicklinkTitle = "Quick links"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe"
+
+# Hero Area Section
+[Languages.fr.params.hero]
+enable  = true
+heading = "Enquête sur les pratiques en matière de données ouvertes 2020"
+description = "La nature de la science passe d'un système fermé à un système ouvert et partagé. Elle affecte pratiquement toutes les composantes de la science et de la recherche. Plusieurs enquêtes récentes se penchent sur les pratiques de données ouvertes principalement dans le nord du monde. Ce projet visera à saisir le paysage actuel des pratiques de données ouvertes dans huit pays africains."
+button  = true
+btnText = "Know More"
+btnURL  = "https://themefisher.com/"
+videoThumb = "images/slider/video-player-thumb.png"
+videoURL   = "https://youtu.be/Y1X0xtB_JcY"
+
+# About 2 Section
+[Languages.fr.params.aboutSm]
+enable  = true
+title   = "La science ouverte est plus qu'un libre accès aux publications ou aux données; il comprend de nombreux aspects et étapes des processus de recherche"
+description = "Il est communément admis que le mouvement de la science ouverte repose sur trois piliers clés: l'accès ouvert aux informations scientifiques, les données ouvertes et l'engagement ouvert avec la société (y compris les entreprises) (OCDE 2015). Les données ouvertes constituent un sous-ensemble des activités de science ouverte. Les données ouvertes font la promotion de l'idée que les données de recherche soient partagées pour examen et ré-analyse sans barrières inutiles. Ces dernières années, un nombre croissant de bailleurs de fonds, d'éditeurs et d'institutions se sont engagés à favoriser les pratiques de partage de données au sein de la communauté de la recherche."
+
+# Blog Section On Homepage
+[Languages.fr.params.blog]
+enable  = true
+topTitle= "OUR UNTOLD STORY"
+title   = "FRANCAIS Blog."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+
+# Contact Section
+[Languages.fr.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "FRANCAIS Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.fr.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "FRANCAIS Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Nous contacter"
+
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "Surveying Open Data Practices 2020"
+dateFormat = "January 2, 2006"
+
+home = "Home"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "Surveying Open Data Practices will run from June 2020 - January 2021. The project is funded by the IDRC and hosted at InSYS, Oxford University."
+footerQuicklinkTitle = "Resources"
+footerAboutTitle = "About"
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable  = true
+heading = "Surveying Open Data Practices 2020 - Africa"
+description = "The nature of science is changing from a closed system to an open and sharing one. It affects virtually all components of doing science and research. Several recent surveys look at open data practices mostly in the global north. This project will aim to capture the current landscape of open data practices in eight African countries."
+button  = true
+btnText = "Know More"
+btnURL  = ""
+videoThumb = "images/slider/video-player-thumb.png"
+videoURL   = "https://youtu.be/Y1X0xtB_JcY"
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable  = true
+title   = "Open Science is more than open access to publications or data; it includes many aspects and stages of research processes"
+description = "It is commonly recognized that the Open Science movement rests on three key pillars: open access to scientific information, open data and open engagement with society (including firms) (OECD 2015). Open Data forms a subset of Open Science activities. Open Data promotes the idea of research data being shared for scrutiny and re-analysis without unnecessary barriers. In recent years, an increasing number of funders, publishers and institutions have made commitments to fostering data sharing practices within the research community."
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable  = true
+topTitle= "Read more about the project as it develops"
+title   = "Blog"
+subtitle= ""
+
+# Contact Section
+[Languages.en.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone   = "(03) 9283 2617"
+fax     = "+61 3827 3590"
+facebook= "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin= "https://www.linkedin.com/"
+dribbble= "https://dribbble.com/"
+instagram= "https://www.instagram.com/"
+mapLatitude = "51.507351"
+mapLongitude= "-0.127758"
+mapMarker   = "images/marker.png"
+
+# Call to Action Section on About Page
+[Languages.en.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Contact Us"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+# Navbar Menus
+[[menu.nav]]
+
+[[menu.nav]]
+name    = "blog"
+url     = "blog"
+weight  = 5
+[[menu.nav]]
+name    = "contact"
+url     = "contact"
+weight  = 6
+
+
+# Footer Quick links Menu
+[[menu.quicklink]]
+name    = "template"
+url     = "https://github.com/themefisher/navigator-hugo"
+weight  = 1
+
+[[menu.quicklink]]
+name    = "images"
+url     = "https://pixabay.com/"
+weight  = 1

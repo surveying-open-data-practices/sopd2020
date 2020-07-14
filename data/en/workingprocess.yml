@@ -1,0 +1,28 @@
+enable  : true
+topTitle: OUR FOUNDATIONS
+title   : Surveys That We Learned From
+subtitle: Over the past few years several communities have looked at various aspects of open science and open data globally. We are building on the work that is out there, and trying to add local context.
+item    :
+  - icon    : 
+    title   : State of Open Data 
+    link    : https://www.digital-science.com/resources/portfolio-reports/the-state-of-open-data-2019/
+    description : >
+      The longest running longitudinal study on this topic - currently in its fourth year - and a collaboration between Springer Nature and Digital Science examining attitudes and experiences of researchers working with open data – sharing it, reusing it, and redistributing it. 
+
+  - icon    : 
+    title   : Towards Open Science
+    link    : https://www.ukdataservice.ac.uk/about-us/our-rd/open-science 
+    description : >
+      A study investigating the current attitudes and actual practices of Wellcome-funded researchers to open science, the barriers that inhibit or prevent researchers from practising open science; and the measures research funders can take to mitigate these barriers.
+
+  - icon    : 
+    title   : Open Science Monitor
+    link    : https://ec.europa.eu/info/research-and-innovation/strategy/goals-research-and-innovation-policy/open-science/open-science-monitor/
+    description : >
+      The European Commission's Open Science Monitor has been created to get some quantitative and qualitative insights on the ongoing development of open science practices. The policy is to foster Open Science.
+
+  - icon    : 
+    title   : African Open Science Platform
+    link    : https://ec.europa.eu/info/research-and-innovation/strategy/goals-research-and-innovation-policy/open-science/open-science-monitor/
+    description : >
+      An initiative funded by the South African Department of Science and Technology through the National Research Foundation, and implemented and managed by the Academy of Science of South Africa, is a pan-African project for Africa by Africa. 
