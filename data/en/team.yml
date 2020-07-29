@@ -8,7 +8,7 @@ member  :
     name          : Dr Louise Bezuidenhout
     designation   : Project Lead
     description   : >
-      Research fellow (@InSIS) at the University of Oxford (@UniofOxford). Co-founder of @labhackathon
+      Louise is a Research fellow (@InSIS) at the University of Oxford (@UniofOxford). Co-founder of @labhackathon
     twitterURL    : https://twitter.com/loubezuidenhout
 
   - image         : images/team/member-2.jpg
@@ -22,5 +22,5 @@ member  :
     name          : Anelda van der Walt
     designation   : Survey development, analysis, visualisation, website
     description   : >
-      Anelda is the founder of Talarify, an Africa-based consultancy working with researchers across the globe to enhance their research and impact through the use of technology, open science and open educational principles.
+      Anelda is the founder of Talarify, an Africa-based consultancy working with researchers to enhance their research and impact through the use of technology, open science and open educational principles.
     twitterURL    : https://twitter.com/aneldavdw

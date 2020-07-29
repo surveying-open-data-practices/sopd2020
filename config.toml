@@ -4,6 +4,7 @@ title = "Surveying Open Data Practices"
 theme = "navigator-hugo"
 summaryLength = 10
 publishDir = "docs"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 # Build robots.txt file
 enableRobotsTXT = true
@@ -57,8 +58,8 @@ enable  = true
 heading = "Enquête sur les pratiques en matière de données ouvertes 2020"
 description = "La nature de la science passe d'un système fermé à un système ouvert et partagé. Elle affecte pratiquement toutes les composantes de la science et de la recherche. Plusieurs enquêtes récentes se penchent sur les pratiques de données ouvertes principalement dans le nord du monde. Ce projet visera à saisir le paysage actuel des pratiques de données ouvertes dans huit pays africains."
 button  = true
-btnText = "Know More"
-btnURL  = "https://themefisher.com/"
+btnText = "Lire la proposition de projet"
+btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
 videoThumb = "images/slider/video-player-thumb.png"
 videoURL   = "https://youtu.be/Y1X0xtB_JcY"
 
@@ -81,17 +82,17 @@ enable  = true
 topTitle= "DROP US A NOTE"
 title   = "FRANCAIS Contact Us."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-address = "14/05, Stockhome <br> Victori Palace , United States"
-phone   = "(03) 9283 2617"
-fax     = "+61 3827 3590"
-facebook= "https://www.facebook.com/"
-twitter = "https://twitter.com/"
-linkedin= "https://www.linkedin.com/"
-dribbble= "https://dribbble.com/"
-instagram= "https://www.instagram.com/"
-mapLatitude = "51.507351"
-mapLongitude= "-0.127758"
-mapMarker   = "images/marker.png"
+address = ""
+phone   = ""
+fax     = ""
+facebook= ""
+twitter = "https://twitter.com/SOPD_IDRC"
+linkedin= ""
+dribbble= ""
+instagram= ""
+mapLatitude = ""
+mapLongitude= ""
+mapMarker   = ""
 
 # Call to Action Section on About Page
 [Languages.fr.params.cta]
@@ -122,8 +123,8 @@ enable  = true
 heading = "Surveying Open Data Practices 2020 - Africa"
 description = "The nature of science is changing from a closed system to an open and sharing one. It affects virtually all components of doing science and research. Several recent surveys look at open data practices mostly in the global north. This project will aim to capture the current landscape of open data practices in eight African countries."
 button  = true
-btnText = "Know More"
-btnURL  = ""
+btnText = "Read the project proposal"
+btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
 videoThumb = "images/slider/video-player-thumb.png"
 videoURL   = "https://youtu.be/Y1X0xtB_JcY"
 
@@ -146,17 +147,17 @@ enable  = true
 topTitle= "DROP US A NOTE"
 title   = "Contact Us."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-address = "14/05, Stockhome <br> Victori Palace , United States"
-phone   = "(03) 9283 2617"
-fax     = "+61 3827 3590"
-facebook= "https://www.facebook.com/"
-twitter = "https://twitter.com/"
-linkedin= "https://www.linkedin.com/"
-dribbble= "https://dribbble.com/"
-instagram= "https://www.instagram.com/"
-mapLatitude = "51.507351"
-mapLongitude= "-0.127758"
-mapMarker   = "images/marker.png"
+address = ""
+phone   = ""
+fax     = ""
+facebook= ""
+twitter = "https://twitter.com/SODP_IDRC"
+linkedin= ""
+dribbble= ""
+instagram= ""
+mapLatitude = ""
+mapLongitude= ""
+mapMarker   = ""
 
 # Call to Action Section on About Page
 [Languages.en.params.cta]
@@ -172,15 +173,29 @@ btnText = "Contact Us"
 [menu]
 # Navbar Menus
 [[menu.nav]]
+name    = "about"
+url     = "#feature"
+weight  = 1
+
+[[menu.nav]]
+name    = "team"
+url     = "#team"
+weight  = 2
+
+[[menu.nav]]
+name    = "timeline"
+url     = "#timeline"
+weight  = 3
 
 [[menu.nav]]
 name    = "blog"
 url     = "blog"
-weight  = 5
+weight  = 4
+
 [[menu.nav]]
 name    = "contact"
 url     = "contact"
-weight  = 6
+weight  = 5
 
 
 # Footer Quick links Menu
