@@ -1,16 +1,19 @@
 enable  : true
+topTitle: OUR VALUES
+title   : How we work
+subtitle: Over the past few years several communities have looked at various aspects of open science and open data globally. We are building on the work that is out there, and trying to add local context. Everything will be open as we the project evolves. 
 item  :
   - icon  : tf-ion-clipboard
-    title : Develop Survey
+    title : Build on Existing Work
     description : >
-      The project will develop a bank of survey questions that can be re-used and is interoperable with other surveys.
+      We're building on existing global and African open science and open data surveys that were conducted in the past.
 
-  - icon  : tf-ion-folder
-    title : Publish Data
+  - icon  : tf-ion-share
+    title : Share Everything
     description : >
-      The data as well as survey instrument will be made available under open licenses to facilitate re-use.
+      The survey instrument, data, analysis scripts, and website template will be made available under open licenses to facilitate re-use.
 
-  - icon  : tf-ion-calculator
-    title : Analysis & Visualisation
+  - icon  : tf-puzzle
+    title : Prioritise Interoperability
     description : >
-      Data analysis and visualisation scripts will be made available under open licenses. A web app will also be developed.
+      The project will attempt to develop a bank of survey questions that can be re-used and is interoperable with other surveys.
