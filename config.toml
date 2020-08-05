@@ -173,18 +173,8 @@ btnText = "Contact Us"
 [menu]
 # Navbar Menus
 [[menu.nav]]
-name    = "about"
-url     = "#feature"
-weight  = 1
-
-[[menu.nav]]
-name    = "team"
-url     = "#team"
-weight  = 2
-
-[[menu.nav]]
-name    = "timeline"
-url     = "#timeline"
+name    = "interoperability"
+url     = "interoperability"
 weight  = 3
 
 [[menu.nav]]
