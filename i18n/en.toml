@@ -1,20 +1,11 @@
-[about]
-other = "About"
-[service]
-other = "Service"
-[portfolio]
-other = "Portfolio"
 [blog]
 other = "Blog"
 [contact]
 other = "Contact"
+[design]
+other = "Survey Design"
 
-[graphicdesign]
-other = "Graphic Design"
-[webdesign]
-other = "Web Design"
-[webdevelopment]
-other = "Web Development"
+
 
 [partners]
 other = "Partners"
