@@ -171,31 +171,22 @@ btnText = "Contact Us"
 
 # Site Menus
 [menu]
+
 # Navbar Menus
-[[menu.nav]]
-name    = "about"
-url     = "#feature"
-weight  = 1
-
-[[menu.nav]]
-name    = "team"
-url     = "#team"
-weight  = 2
-
-[[menu.nav]]
-name    = "timeline"
-url     = "#timeline"
-weight  = 3
-
 [[menu.nav]]
 name    = "blog"
 url     = "blog"
-weight  = 4
+weight  = 1
+
+[[menu.nav]]
+name    = "interoperability"
+url     = "interoperability"
+weight  = 2
 
 [[menu.nav]]
 name    = "contact"
 url     = "contact"
-weight  = 5
+weight  = 3
 
 
 # Footer Quick links Menu
