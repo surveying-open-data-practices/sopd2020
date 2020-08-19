@@ -31,7 +31,7 @@ code = "en"
 
 # meta data
 author = "Surveying Open Data Practices"
-description = "A project funded by the IDRC hosted at InSYS"
+description = "A project funded by the IDRC hosted at InSIS"
 
 # Gestion des langues : FR / EN / NL / DE
 [Languages]
@@ -179,8 +179,8 @@ url     = "blog"
 weight  = 1
 
 [[menu.nav]]
-name    = "interoperability"
-url     = "interoperability"
+name    = "design"
+url     = "design"
 weight  = 2
 
 [[menu.nav]]
