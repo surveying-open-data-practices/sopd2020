@@ -33,74 +33,6 @@ code = "en"
 author = "Surveying Open Data Practices"
 description = "A project funded by the IDRC hosted at InSIS"
 
-# Gestion des langues : FR / EN / NL / DE
-[Languages]
-############ 1 - Site en FRANCAIS
-[Languages.fr]
-weight = 1
-languageCode = "fr-fr"
-title = "Enquête sur les pratiques en matière de données ouvertes"
-dateFormat = "2 January 2006"
-
-home = "Accueil"
-logo = "images/logo.png"
-menufixed = false
-
-footerDescription = "Les enquêtes sur les pratiques en matière de données ouvertes se dérouleront de juin 2020 à janvier 2021. Le projet est financé par le CRDI et hébergé à InSYS, Université d'Oxford."
-footerServiceTitle = "Services"
-footerQuicklinkTitle = "Quick links"
-footerAboutTitle = "About"
-footerSubscribeTitle = "Subscribe"
-
-# Hero Area Section
-[Languages.fr.params.hero]
-enable  = true
-heading = "Enquête sur les pratiques en matière de données ouvertes 2020"
-description = "La nature de la science passe d'un système fermé à un système ouvert et partagé. Elle affecte pratiquement toutes les composantes de la science et de la recherche. Plusieurs enquêtes récentes se penchent sur les pratiques de données ouvertes principalement dans le nord du monde. Ce projet visera à saisir le paysage actuel des pratiques de données ouvertes dans huit pays africains."
-button  = true
-btnText = "Lire la proposition de projet"
-btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
-videoThumb = "images/slider/video-player-thumb.png"
-videoURL   = "https://youtu.be/Y1X0xtB_JcY"
-
-# About 2 Section
-[Languages.fr.params.aboutSm]
-enable  = true
-title   = "La science ouverte est plus qu'un libre accès aux publications ou aux données; il comprend de nombreux aspects et étapes des processus de recherche"
-description = "Il est communément admis que le mouvement de la science ouverte repose sur trois piliers clés: l'accès ouvert aux informations scientifiques, les données ouvertes et l'engagement ouvert avec la société (y compris les entreprises) (OCDE 2015). Les données ouvertes constituent un sous-ensemble des activités de science ouverte. Les données ouvertes font la promotion de l'idée que les données de recherche soient partagées pour examen et ré-analyse sans barrières inutiles. Ces dernières années, un nombre croissant de bailleurs de fonds, d'éditeurs et d'institutions se sont engagés à favoriser les pratiques de partage de données au sein de la communauté de la recherche."
-
-# Blog Section On Homepage
-[Languages.fr.params.blog]
-enable  = true
-topTitle= "OUR UNTOLD STORY"
-title   = "FRANCAIS Blog."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-
-# Contact Section
-[Languages.fr.params.contact]
-enable  = true
-topTitle= "DROP US A NOTE"
-title   = "FRANCAIS Contact Us."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-address = ""
-phone   = ""
-fax     = ""
-facebook= ""
-twitter = "https://twitter.com/SOPD_IDRC"
-linkedin= ""
-dribbble= ""
-instagram= ""
-mapLatitude = ""
-mapLongitude= ""
-mapMarker   = ""
-
-# Call to Action Section on About Page
-[Languages.fr.params.cta]
-enable  = true
-bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-title   = "FRANCAIS Let's Create Something Together"
-subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-btnText = "Nous contacter"
 
 ############# 2 - Site en ENGLISH
 [Languages.en]
@@ -113,7 +45,7 @@ home = "Home"
 logo = "images/logo.png"
 menufixed = false
 
-footerDescription = "Surveying Open Data Practices will run from June 2020 - January 2021. The project is funded by the IDRC and hosted at InSYS, Oxford University."
+footerDescription = "Surveying Open Data Practices will run from June 2020 - January 2021. The project is funded by the IDRC and hosted at InSIS, Oxford University."
 footerQuicklinkTitle = "Resources"
 footerAboutTitle = "About"
 
@@ -146,7 +78,7 @@ subtitle= ""
 enable  = true
 topTitle= "DROP US A NOTE"
 title   = "Contact Us."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+subtitle= "We're really interested to hear from stakeholders and publish guest blog posts about open data practices in Africa. Please get in touch!"
 address = ""
 phone   = ""
 fax     = ""
@@ -158,14 +90,8 @@ instagram= ""
 mapLatitude = ""
 mapLongitude= ""
 mapMarker   = ""
+email = "sopd@googlegroups.com"
 
-# Call to Action Section on About Page
-[Languages.en.params.cta]
-enable  = true
-bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-title   = "Let's Create Something Together"
-subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-btnText = "Contact Us"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
@@ -176,17 +102,17 @@ btnText = "Contact Us"
 [[menu.nav]]
 name    = "blog"
 url     = "blog"
-weight  = 1
+weight  = 4
 
 [[menu.nav]]
 name    = "design"
 url     = "design"
-weight  = 2
+weight  = 5
 
 [[menu.nav]]
 name    = "contact"
 url     = "contact"
-weight  = 3
+weight  = 6
 
 
 # Footer Quick links Menu
@@ -199,3 +125,72 @@ weight  = 1
 name    = "images"
 url     = "https://pixabay.com/"
 weight  = 1
+
+
+# Gestion des langues : FR / EN / NL / DE
+[Languages]
+############ 1 - Site en FRANCAIS
+[Languages.fr]
+weight = 1
+languageCode = "fr-fr"
+title = "Enquête sur les pratiques en matière de données ouvertes"
+dateFormat = "2 January 2006"
+
+home = "Accueil"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "Les enquêtes sur les pratiques en matière de données ouvertes se dérouleront de juin 2020 à janvier 2021. Le projet est financé par le CRDI et hébergé à InSIS, Université d'Oxford."
+footerQuicklinkTitle = "Ressources"
+footerAboutTitle = "Á propos"
+
+
+# Hero Area Section
+[Languages.fr.params.hero]
+enable  = true
+heading = "Enquête sur les pratiques en matière de données ouvertes 2020"
+description = "La nature de la science passe d'un système fermé à un système ouvert et partagé. Elle affecte pratiquement toutes les composantes de la science et de la recherche. Plusieurs enquêtes récentes se penchent sur les pratiques de données ouvertes principalement dans le nord du monde. Ce projet visera à saisir le paysage actuel des pratiques de données ouvertes dans huit pays africains."
+button  = true
+btnText = "Lire la proposition de projet"
+btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
+videoThumb = "images/slider/video-player-thumb.png"
+videoURL   = "https://youtu.be/Y1X0xtB_JcY"
+
+# About 2 Section
+[Languages.fr.params.aboutSm]
+enable  = true
+title   = "La science ouverte est plus qu'un libre accès aux publications ou aux données; il comprend de nombreux aspects et étapes des processus de recherche"
+description = "Il est communément admis que le mouvement de la science ouverte repose sur trois piliers clés: l'accès ouvert aux informations scientifiques, les données ouvertes et l'engagement ouvert avec la société (y compris les entreprises) (OCDE 2015). Les données ouvertes constituent un sous-ensemble des activités de science ouverte. Les données ouvertes font la promotion de l'idée que les données de recherche soient partagées pour examen et ré-analyse sans barrières inutiles. Ces dernières années, un nombre croissant de bailleurs de fonds, d'éditeurs et d'institutions se sont engagés à favoriser les pratiques de partage de données au sein de la communauté de la recherche."
+
+# Blog Section On Homepage
+[Languages.fr.params.blog]
+enable  = true
+topTitle= "En savoir plus sur le projet au fur et à mesure de son développement"
+title   = "Blog."
+subtitle= ""
+
+# Contact Section
+[Languages.fr.params.contact]
+enable  = true
+topTitle= "DROP US A NOTE"
+title   = "FRANCAIS Contact Us."
+subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+address = ""
+phone   = ""
+fax     = ""
+facebook= ""
+twitter = "https://twitter.com/SOPD_IDRC"
+linkedin= ""
+dribbble= ""
+instagram= ""
+mapLatitude = ""
+mapLongitude= ""
+mapMarker   = ""
+
+# Call to Action Section on About Page
+[Languages.fr.params.cta]
+enable  = true
+bg      = "images/call-to-action/call-to-action-bg-2.jpg"
+title   = "FRANCAIS Let's Create Something Together"
+subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
+btnText = "Nous contacter"

@@ -1,45 +1,26 @@
 enable  : true
-topTitle: FRANCAIS TEAM MEMBER
-title   : FRANCAIS Our Team.
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+topTitle: MEMBRES DE L'ÉQUIPE
+title   : Équipe de base
+subtitle: Le projet s'appuie sur les travaux du groupe d'intérêt RDA pour l'étude des pratiques de données ouvertes et bien d'autres. Les membres de l'équipe de base pour l'enquête africaine 2020 sont énumérés ci-dessous.
 
 member  :
   - image         : images/team/member-1.jpg
-    name          : FRANCAIS Shawshank Redemption
-    designation   : Head Of Marketing
+    name          : Dr Louise Bezuidenhout
+    designation   : Chef de projet
     description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
+      Louise est chercheur (@InSIS) à l'Université d'Oxford (@UniofOxford). Co-fondateur de @labhackathon
+    twitterURL    : https://twitter.com/loubezuidenhout
 
   - image         : images/team/member-2.jpg
-    name          : Leo Departure
-    designation   : Web Developer
+    name          : Mboa Nkoudou Thomas
+    designation   : Développement d'enquêtes, traductions, analyse, diffusion
     description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
+      Thomas Mboa est un chercheur en information et communication, avec un intérêt pour le mouvement Maker, l'innovation sociale, la science ouverte et la communication savante.
+    twitterURL    : https://twitter.com/Mboathomas
 
   - image         : images/team/member-3.jpg
-    name          : Remoni Rio
-    designation   : Senior Developer
+    name          : Anelda van der Walt
+    designation   : Développement d'enquêtes, analyse, visualisation, site Web
     description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
-
-  - image         : images/team/member-4.jpg
-    name          : Lawandeski Roma
-    designation   : Designer
-    description   : >
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
-    facebookURL   : https://www.facebook.com/
-    twitterURL    : https://twitter.com/
-    gplusURL      : https://plus.google.com/
-    dribbbleURL   : https://dribbble.com/
+      Anelda est la fondatrice de Talarify, une société de conseil basée en Afrique qui travaille avec des chercheurs pour améliorer leurs recherches et leur impact grâce à l'utilisation de la technologie, de la science ouverte et des principes éducatifs ouverts.
+    twitterURL    : https://twitter.com/aneldavdw
