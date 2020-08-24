@@ -24,8 +24,8 @@ DefaultContentLanguage = "en"
 logo = "images/logo.png"
 
 # Gestion des langues : FR / EN / NL / DE
-[[Params.listeLangues]]
-code = "fr"
+#[[Params.listeLangues]]
+#code = "fr"
 [[Params.listeLangues]]
 code = "en"
 
@@ -59,6 +59,11 @@ btnText = "Read the project proposal"
 btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
 videoThumb = "images/slider/video-player-thumb.png"
 videoURL   = "https://youtu.be/Y1X0xtB_JcY"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # About 2 Section
 [Languages.en.params.aboutSm]
@@ -100,13 +105,13 @@ email = "sopd@googlegroups.com"
 
 # Navbar Menus
 [[menu.nav]]
-name    = "blog"
-url     = "blog"
+name    = "design"
+url     = "design"
 weight  = 4
 
 [[menu.nav]]
-name    = "design"
-url     = "design"
+name    = "blog"
+url     = "blog"
 weight  = 5
 
 [[menu.nav]]
