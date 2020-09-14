@@ -152,21 +152,16 @@ hasChildren = true
   [[menu.nav]]
   parent  = "Survey"
   name    = "Survey Instrument"
-  url     = "instrument"
+  url     = "en/instrument"
   weight  = 1
 
   
   [[menu.nav]]
   parent  = "Survey"
   name    = "Survey Design"
-  url     = "design"
+  url     = "en/design"
   weight  = 2
   
-  [[menu.nav]]
-  parent  = "Survey"
-  name    = "Survey Design"
-  url     = "design"
-  weight  = 2
   
 [[menu.nav]]
 name    = "outputs" 
