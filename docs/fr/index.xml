@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Enquête sur les pratiques en matière de données ouvertes</title>
-    <link>/sopd2020/fr/</link>
+    <link>https://surveying-open-data-practices.github.io/sopd2020/fr/</link>
     <description>Recent content on Enquête sur les pratiques en matière de données ouvertes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Tue, 14 Jul 2020 12:22:40 +0600</lastBuildDate>
     
-	<atom:link href="/sopd2020/fr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://surveying-open-data-practices.github.io/sopd2020/fr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reviewing Existing Open Data Surveys</title>
-      <link>/sopd2020/fr/blog/review-existing-open-data-surveys/</link>
+      <link>https://surveying-open-data-practices.github.io/sopd2020/fr/blog/review-existing-open-data-surveys/</link>
       <pubDate>Tue, 14 Jul 2020 12:22:40 +0600</pubDate>
       
-      <guid>/sopd2020/fr/blog/review-existing-open-data-surveys/</guid>
+      <guid>https://surveying-open-data-practices.github.io/sopd2020/fr/blog/review-existing-open-data-surveys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introducing the RDA Interest Group on Surveying Open Data Practices</title>
-      <link>/sopd2020/fr/blog/rda-ig-survey-open-data-practices/</link>
+      <link>https://surveying-open-data-practices.github.io/sopd2020/fr/blog/rda-ig-survey-open-data-practices/</link>
       <pubDate>Thu, 09 Jul 2020 12:22:40 +0600</pubDate>
       
-      <guid>/sopd2020/fr/blog/rda-ig-survey-open-data-practices/</guid>
+      <guid>https://surveying-open-data-practices.github.io/sopd2020/fr/blog/rda-ig-survey-open-data-practices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>L&#39;enquête sur les pratiques de données ouvertes démarre</title>
-      <link>/sopd2020/fr/blog/surveying-open-data-practices-kicks-off/</link>
+      <link>https://surveying-open-data-practices.github.io/sopd2020/fr/blog/surveying-open-data-practices-kicks-off/</link>
       <pubDate>Wed, 08 Jul 2020 12:22:40 +0600</pubDate>
       
-      <guid>/sopd2020/fr/blog/surveying-open-data-practices-kicks-off/</guid>
+      <guid>https://surveying-open-data-practices.github.io/sopd2020/fr/blog/surveying-open-data-practices-kicks-off/</guid>
       <description>Introducing a new IDRC project to survey data sharing practices among researchers in Africa.</description>
     </item>
     
