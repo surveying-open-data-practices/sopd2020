@@ -1,18 +1,12 @@
+# Navigation bar
 [blog]
 other = "Blog"
 [contact]
 other = "Contact"
 [design]
-other = "Design & Interoperability"
+other = "Design"
 
-
-
-[partners]
-other = "Partners"
-[faqs]
-other = "FAQ's"
-[badges]
-other = "Badges"
+# Footer
 [template]
 other = "Website template by Themefisher"
 [images]

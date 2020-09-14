@@ -1,14 +1,18 @@
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!-- Include the above in your HEAD tag -->
+<head>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
 
-<div class="container">
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.surveys }}
+    {{ if .enable }}
 
-    <!-- Page header -->
-    <div class="page-header">
-    </div>
-    <!-- /Page header -->
+    {{ "<!-- Surveys Section Start -->" | safeHTML }}
+    
+    <section class="section" id="surveys"> 
+    
+    <div class="container">
 
     <!-- Timeline -->
     <div class="timeline">
@@ -18,335 +22,212 @@
             <time><h2>2020</h2></time>
         </div>
         <!-- /Separator -->
-    
-        <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">Surveying Open Data Practices</h2>
-            </div>
-            <!-- /Heading -->
-    
-            <!-- Body -->
-            <div class="panel-body">
-                The <a href="https://surveying-open-data-practices.github.io/sopd2020/">current project</a> is hosted at InSIS at Oxford University and funded through the IDRC.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->
         
-                <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">Global Consultation on Open Science</h2>
-            </div>
-            <!-- /Heading -->
+                
+         {{ range .y2020 }}
     
-            <!-- Body -->
-            <div class="panel-body">
-                <a href="https://en.unesco.org/science-sustainable-future/open-science/consultation">The survey</a> is designed to collect inputs for the development of the UNESCO Recommendation on Open Science.This survey forms part of a broader process of input gathering that includes online consultations, regional and thematic meetings and numerous debates on implications, benefits and challenges of Open Science across the globe. 
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->
-        
-        <!-- Panel -->
-        <article class="panel panel-primary">
+            <!-- Panel -->
+            <article class="panel panel-primary">
 
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">The digital practices of researchers in France</h2>
-            </div>
-            <!-- /Heading -->
+                <!-- Heading -->
+                <div class="panel-heading">
+                    <h2 class="panel-title"> {{ .title }}</h2>
+                </div>
+                <!-- /Heading -->
     
-            <!-- Body -->
-            <div class="panel-body">
-                <a href="https://questions.huma-num.fr/SurveyServer/s/SOSP-FR/outilsnumeriqueschezleschercheursenFrance/questionnaire.htm">The project</a> was initiated by the <a href="https://www.ouvrirlascience.fr/">Committee for Open Science</a>. Its aim is to better understand how researchers use digital tools and research data in French scientific communities.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->
+                <!-- Body -->
+                <div class="panel-body">
+                    {{ .description}}
+                    <a href="{{ .link }}"><i class="tf-ion-link  w3-text-teal" style="font-size:30px"></i></a>
+                </div>
+                <!-- /Body -->
+            </article>
+            <!-- /Panel -->
+        {{ end }}
 
-        
-        
         <!-- Separator -->
         <div class="separator text-muted">
             <time><h2>2019</h2></time>
         </div>
         <!-- /Separator -->
         
-        <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">The State of Open Data</h2>
-            </div>
-            <!-- /Heading -->
+                
+         {{ range .y2019 }}
     
-            <!-- Body -->
-            <div class="panel-body">
-                The 2019 <a href="https://www.digital-science.com/resources/portfolio-reports/the-state-of-open-data-2019/">State of Open Data</a> report examines attitudes and experiences of researchers working with open data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->
+            <!-- Panel -->
+            <article class="panel panel-primary">
+
+                <!-- Heading -->
+                <div class="panel-heading">
+                    <h2 class="panel-title"> {{ .title }}</h2>
+                </div>
+                <!-- /Heading -->
+    
+                <!-- Body -->
+                <div class="panel-body">
+                    {{ .description}}
+                    <a href="{{ .link }}"><i class="tf-ion-link  w3-text-teal" style="font-size:30px"></i></a>
+                </div>
+                <!-- /Body -->
+            </article>
+            <!-- /Panel -->
+        {{ end }}
         
         <!-- Separator -->
         <div class="separator text-muted">
             <time><h2>2018</h2></time>
         </div>
-        <!-- /Separator -->     
+        <!-- /Separator -->
         
-                <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">The State of Open Data</h2>
-            </div>
-            <!-- /Heading -->
+                
+         {{ range .y2018 }}
     
-            <!-- Body -->
-            <div class="panel-body">
-                The 2018 <a href="https://digitalscience.figshare.com/articles/The_State_of_Open_Data_Report_2018/7195058/">State of Open Data</a> report examines attitudes and experiences of researchers working with open data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->
-        
-        
+            <!-- Panel -->
+            <article class="panel panel-primary">
+
+                <!-- Heading -->
+                <div class="panel-heading">
+                    <h2 class="panel-title"> {{ .title }}</h2>
+                </div>
+                <!-- /Heading -->
+    
+                <!-- Body -->
+                <div class="panel-body">
+                    {{ .description}}
+                    <a href="{{ .link }}"><i class="tf-ion-link  w3-text-teal" style="font-size:30px"></i></a>
+                </div>
+                <!-- /Body -->
+            </article>
+            <!-- /Panel -->
+        {{ end }}
+
         <!-- Separator -->
         <div class="separator text-muted">
             <time><h2>2017</h2></time>
         </div>
-        <!-- /Separator -->     
+        <!-- /Separator -->
         
-                <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">The State of Open Data</h2>
-            </div>
-            <!-- /Heading -->
+                
+         {{ range .y2017 }}
     
-            <!-- Body -->
-            <div class="panel-body">
-                The 2017 <a href="https://figshare.com/articles/_/5481187">State of Open Data</a> report examines attitudes and experiences of researchers working with open data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->
-        
+            <!-- Panel -->
+            <article class="panel panel-primary">
+
+                <!-- Heading -->
+                <div class="panel-heading">
+                    <h2 class="panel-title"> {{ .title }}</h2>
+                </div>
+                <!-- /Heading -->
+    
+                <!-- Body -->
+                <div class="panel-body">
+                    {{ .description}}
+                    <a href="{{ .link }}"><i class="tf-ion-link  w3-text-teal" style="font-size:30px"></i></a>
+
+                </div>
+                <!-- /Body -->
+            </article>
+            <!-- /Panel -->
+        {{ end }}
+
         <!-- Separator -->
         <div class="separator text-muted">
             <time><h2>2016</h2></time>
         </div>
-        <!-- /Separator -->     
+        <!-- /Separator -->
         
-                <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">The State of Open Data</h2>
-            </div>
-            <!-- /Heading -->
+                
+         {{ range .y2016 }}
     
-            <!-- Body -->
-            <div class="panel-body">
-                The 2016 <a href="https://knowledge.figshare.com/articles/item/state-of-open-data-2016">State of Open Data</a> report examines attitudes and experiences of researchers working with open data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->
-        
-        <article class="panel panel-primary">
+            <!-- Panel -->
+            <article class="panel panel-primary">
 
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">Open data: The researcher perspective</h2>
-            </div>
-            <!-- /Heading -->
+                <!-- Heading -->
+                <div class="panel-heading">
+                    <h2 class="panel-title"> {{ .title }}</h2>
+                </div>
+                <!-- /Heading -->
     
-            <!-- Body -->
-            <div class="panel-body">
-                The <a href="https://www.elsevier.com/open-science/research-data/open-data-report">Open Data report</a> is a result of a year-long, co-conducted study between Elsevier and the Centre for Science and Technology Studies (CWTS), part of Leiden University, the Netherlands.  The study is based on a complementary methods approach consisting of a quantitative analysis of bibliometric and publication data, a global survey of 1,200 researchers and three case studies including in-depth interviews with key individuals involved in data collection, analysis and deposition in the fields of soil science, human genetics and digital humanities.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->      
+                <!-- Body -->
+                <div class="panel-body">
+                    {{ .description}}
+                    <a href="{{ .link }}"><i class="tf-ion-link  w3-text-teal" style="font-size:30px"></i></a>
+
+                </div>
+                <!-- /Body -->
+            </article>
+            <!-- /Panel -->
+        {{ end }}
         
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">Towards Open Research: Practices, experiences, barriers & opportunities</h2>
-            </div>
-            <!-- /Heading -->
-    
-            <!-- Body -->
-            <div class="panel-body">
-                <a href="https://figshare.com/articles/Survey_of_Wellcome_researchers_and_their_attitudes_to_open_research/4055448/1">This study</a> was commissioned by Wellcome Trust and investigated researchers' attitudes and behaviours towards open reesarch, examined the sharing and reuse of research data, code, and open access publications, in order to identify practical actions the Wellcome Trust could take to remove or mitigate barriers and maximise the opportunities for practicing open science.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->    
-        
-                <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">Wiley Open Science Researcher Insights</h2>
-            </div>
-            <!-- /Heading -->
-    
-            <!-- Body -->
-            <div class="panel-body">
-                In September 2016, Wiley contacted approximately 55,000 of their authors across many disciplines and received more than 4,600 responses. <a href="https://www.wiley.com/network/researchers/licensing-and-open-access/open-science-trends-you-need-to-know-about">The survey</a> effort focused on Open Science, broadly aiming to help them understand how researchers approach open access requirements, manage data, and participate in the sharing and archiving of their research.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->
-        
-        <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">Daily Research Challenges in African Laboratories</h2>
-            </div>
-            <!-- /Heading -->
-    
-            <!-- Body -->
-            <div class="panel-body">
-                This study was performed by researchers from University of Witwatersrand (South Africa) and NEPAD-SANBio and funded through the International Network for the Availability of Scientific Publications. <a href="https://pubmed.ncbi.nlm.nih.gov/29503603/">The survey</a> interrogated not only perceptions of data sharing amongst LMIC scientists, but also how these are connected to the research environments and daily challenges experienced by them.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->
-
-
-        
-        <!-- Separator -->
+      <!-- Separator -->
         <div class="separator text-muted">
             <time><h2>2015</h2></time>
         </div>
-        <!-- /Separator -->     
+        <!-- /Separator -->
         
-                <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">The State of Open Data</h2>
-            </div>
-            <!-- /Heading -->
+                
+         {{ range .y2015 }}
     
-            <!-- Body -->
-            <div class="panel-body">
-                The 2016 <a href="https://knowledge.figshare.com/articles/item/state-of-open-data-2016">State of Open Data</a> report examines attitudes and experiences of researchers working with open data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->  
-        
-                <!-- Panel -->
-        <article class="panel panel-primary">
+            <!-- Panel -->
+            <article class="panel panel-primary">
 
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">User requirements for national research and education networks for research in West and Central Africa </h2>
-            </div>
-            <!-- /Heading -->
+                <!-- Heading -->
+                <div class="panel-heading">
+                    <h2 class="panel-title"> {{ .title }}</h2>
+                </div>
+                <!-- /Heading -->
     
-            <!-- Body -->
-            <div class="panel-body">
-                In 2015 the West and Central African Research and Education Network (WACREN) conducted <a href="https://journals.sagepub.com/doi/full/10.1177/0266666918774113">a survey</a> to attempt to discover what NREN services are wanted by end users with respect to developing an NREN services roadmap in the region. This work was partly supported by the H2020 TransAfrican Network Development (TANDEM) and the H2020 Energising Scientific Endeavour Through Science Gateways and e-infrastructures in Africa (Sci-GaIA) projects. 
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->  
-        
-                <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">Obstacles to the adoption of open access and open science: data from a survey of researchers and students in Francophone Africa and Haiti</h2>
-            </div>
-            <!-- /Heading -->
-    
-            <!-- Body -->
-            <div class="panel-body">
-                The SOHA project, launched in 2015, designed an <a href="http://www.projetsoha.org/?page_id=1020">online survey</a> to understand the potential opportunities and barriers for the uptake of fair open science in French-Speaking Haiti/Africa.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->  
-        
-                <!-- Panel -->
-        <article class="panel panel-primary">
-
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">Innovations in scholarly communication survey</h2>
-            </div>
-            <!-- /Heading -->
-    
-            <!-- Body -->
-            <div class="panel-body">
-                <a href="https://f1000research.com/articles/5-692/v1">The survey</a> asked about tool usage for 17 research activities and stance about open access and open science. It was created by Bianca Kramer and Jeroen Bosman from Utrecht University.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->  
+                <!-- Body -->
+                <div class="panel-body">
+                    {{ .description}}
+                    <a href="{{ .link }}"><i class="tf-ion-link  w3-text-teal" style="font-size:30px"></i></a>
+                </div>
+                <!-- /Body -->
+            </article>
+            <!-- /Panel -->
+        {{ end }}
         
         <!-- Separator -->
         <div class="separator text-muted">
             <time><h2>2014</h2></time>
         </div>
-        <!-- /Separator -->     
+        <!-- /Separator -->
         
-        <!-- Panel -->
-        <article class="panel panel-primary">
+                
+         {{ range .y2014 }}
+    
+            <!-- Panel -->
+            <article class="panel panel-primary">
 
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">Open Data in Global Environmental Research</h2>
-            </div>
-            <!-- /Heading -->
+                <!-- Heading -->
+                <div class="panel-heading">
+                    <h2 class="panel-title"> {{ .title }}</h2>
+                </div>
+                <!-- /Heading -->
     
-            <!-- Body -->
-            <div class="panel-body">
-                The Belmont Forum’s <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146695">survey on Open Data</a> targeted the global environmental research and data infrastructure community. It highlights users’ perceptions of the term “open data”, expectations of infrastructure functionalities, and barriers and enablers for the sharing of data.
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->        
-        
-        <article class="panel panel-primary">
+                <!-- Body -->
+                <div class="panel-body">
+                    {{ .description}} 
+                    <a href="{{ .link }}"><i class="tf-ion-link  w3-text-teal" style="font-size:30px"></i></a>
+                </div>
+                <!-- /Body -->
+            </article>
+            <!-- /Panel -->
+        {{ end }}
 
-            <!-- Heading -->
-            <div class="panel-heading">
-                <h2 class="panel-title">Changes in data sharing and data reuse practices and perceptions among scientists worldwide</h2>
-            </div>
-            <!-- /Heading -->
-    
-            <!-- Body -->
-            <div class="panel-body">
-                In <a href="https://doi.org/10.1371/journal.pone.0134826">this study</a>, the DataONE Usability and Assessment working group addresses two primary goals: To examine the current state of data sharing and reuse perceptions and practices among research scientists as they compare to the 2009/2010 baseline study, and to examine differences in practices and perceptions across age groups, geographic regions, and subject disciplines. 
-            </div>
-            <!-- /Body -->
-        </article>
-        <!-- /Panel -->    
-    
+
+
+  
     </div>
     <!-- /Timeline -->
+    
+    </div>
 
-</div>
+    </section>
+{{ end }}
+
+    {{ "<!-- End section -->" | safeHTML }}
+    
+    {{ end }}
+
+

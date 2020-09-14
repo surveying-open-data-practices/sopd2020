@@ -93,36 +93,6 @@
   </url>
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/fr/portfolio/</loc>
-    <lastmod>2018-07-07T15:45:06+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/portfolio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/portfolio/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/fr/service/</loc>
-    <lastmod>2018-07-07T14:53:13+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/service/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/service/"
-                />
-  </url>
-  
-  <url>
     <loc>https://surveying-open-data-practices.github.io/sopd2020/fr/design/</loc>
     <lastmod>2018-07-07T12:37:52+06:00</lastmod>
     <xhtml:link

@@ -1,6 +1,6 @@
 baseURL = "https://surveying-open-data-practices.github.io/sopd2020"
 languageCode = "en-us"
-title = "Surveying Open Data Practices"
+title = "Surveying Open Data Practices in Research"
 theme = "navigator-hugo"
 summaryLength = 10
 publishDir = "docs"
@@ -30,7 +30,7 @@ logo = "images/logo.png"
 code = "en"
 
 # meta data
-author = "Surveying Open Data Practices"
+author = "Surveying Open Data Practices in Research"
 description = "A project funded by the IDRC hosted at InSIS"
 
 
@@ -38,7 +38,7 @@ description = "A project funded by the IDRC hosted at InSIS"
 [Languages.en]
 weight = 2
 languageCode = "en-us"
-title = "Surveying Open Data Practices 2020"
+title = "Surveying Open Data Practices in Research 2020"
 dateFormat = "January 2, 2006"
 
 home = "Home"
@@ -48,12 +48,13 @@ menufixed = false
 footerDescription = "Surveying Open Data Practices will run from June 2020 - January 2021. The project is funded by the IDRC and hosted at InSIS, Oxford University."
 footerQuicklinkTitle = "Resources"
 footerAboutTitle = "About"
+footerLicense = "Content published under CC-BY-4.0 except where original content licenses apply or when stated otherwise."
 
 # Hero Area Section
 [Languages.en.params.hero]
 enable  = true
-heading = "Surveying Open Data Practices 2020 - Africa"
-description = "The nature of science is changing from a closed system to an open and sharing one. It affects virtually all components of doing science and research. Several recent surveys look at open data practices mostly in the global north. This project will aim to capture the current landscape of open data practices in eight African countries."
+heading = "Surveying Open Data Practices in Research 2020 - Africa"
+description = "The Internet and progress in digital technologies are increasingly shifting the logic underlying science and research from closed to open systems. This change is affecting even the way data are managed, used and shared. This project will aim to capture the current landscape of open data practices in research.  The survey covers eight African countries including Uganda and Ethiopia from East Africa; Burkina Faso and Senegal from West Africa and Botswana, Malawi, Mozambique and Zimbabwe from Southern Africa."
 button  = true
 btnText = "Read the project proposal"
 btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
@@ -68,20 +69,20 @@ videoURL   = "https://youtu.be/Y1X0xtB_JcY"
 # About 2 Section
 [Languages.en.params.aboutSm]
 enable  = true
-title   = "Open Science is more than open access to publications or data; it includes many aspects and stages of research processes"
+title   = "Open Science is more than open access to publications or data."
 description = "It is commonly recognized that the Open Science movement rests on three key pillars: open access to scientific information, open data and open engagement with society (including firms) (OECD 2015). Open Data forms a subset of Open Science activities. Open Data promotes the idea of research data being shared for scrutiny and re-analysis without unnecessary barriers. In recent years, an increasing number of funders, publishers and institutions have made commitments to fostering data sharing practices within the research community."
 
 # Blog Section On Homepage
 [Languages.en.params.blog]
 enable  = true
-topTitle= "Read more about the project as it develops"
-title   = "Blog"
+topTitle= ""
+title   = "Recent News"
 subtitle= ""
 
 # Contact Section
 [Languages.en.params.contact]
 enable  = true
-topTitle= "DROP US A NOTE"
+topTitle= ""
 title   = "Contact Us."
 subtitle= "We're really interested to hear from stakeholders and publish guest blog posts about open data practices in Africa. Please get in touch!"
 address = ""
@@ -96,6 +97,15 @@ mapLatitude = ""
 mapLongitude= ""
 mapMarker   = ""
 email = "sopd@googlegroups.com"
+
+
+# Call to Action Section on Home Page
+[Languages.en.params.cta]
+enable  = true
+bg      = "images/call-to-action/cta-1.jpg"
+title   = "Tell us about your data practices"
+subtitle= "We aim to get wide participation from researchers and postgraduate students across the target countries (i.e. Uganda, Ethiopia, Burkina Faso, Senegal, Botswana, Malawi, Mozambique and Zimbabwe). If you are not from a country listed above, you can still participate. We will analyse all data and make the dataset available for others to analyze countries not covered in this project."
+btnText = "Take the Survey"
 
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
@@ -199,3 +209,5 @@ bg      = "images/call-to-action/call-to-action-bg-2.jpg"
 title   = "FRANCAIS Let's Create Something Together"
 subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
 btnText = "Nous contacter"
+
+
