@@ -122,25 +122,25 @@ hasChildren = true
 
   [[menu.nav]]
   name    = "Project Details"
-  url     = "#outline"
+  url     = "en/#outline"
   parent  = "About"
   weight  = 1
 
   [[menu.nav]]
   name    = "How we work"
-  url     = "#values"
+  url     = "en/#values"
   parent  = "About"
   weight  = 2
   
   [[menu.nav]]
   name    = "Project Timeline"
-  url     = "#timeline"
+  url     = "en/#timeline"
   parent  = "About"
   weight  = 3
   
   [[menu.nav]]
   name    = "Team"
-  url     = "#team"
+  url     = "en/#team"
   parent  = "About"
   weight  = 4
 
@@ -152,14 +152,14 @@ hasChildren = true
   [[menu.nav]]
   parent  = "Survey"
   name    = "Survey Instrument"
-  url     = "en/instrument"
+  url     = "instrument"
   weight  = 1
 
   
   [[menu.nav]]
   parent  = "Survey"
   name    = "Survey Design"
-  url     = "en/design"
+  url     = "design"
   weight  = 2
   
   
