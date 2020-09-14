@@ -12,7 +12,7 @@
             </div>
         </div>
         <div class="row">
-            {{ range first 3 .Site.RegularPages}}
+            {{ range first 2 .Site.RegularPages}}
             {{ "<!-- single blog post -->" | safeHTML }}
             <article class="col-12 col-md-4">
                 <div class="post-item">
@@ -44,6 +44,11 @@
             </article>
             {{ "<!-- /single blog post -->" | safeHTML }}
             {{ end }}
+            
+            <article class="col-12 col-md-4">
+    
+                <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/SODP_IDRC?ref_src=twsrc%5Etfw">Tweets by SODP_IDRC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </article>
         </div>
     </div>
 </section>

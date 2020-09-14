@@ -1,24 +1,13 @@
-[about]
-other = "About"
-[service]
-other = "Service"
-[design]
-other = "Conception & Interopérabilité"
+# Navigation bar
 [blog]
-other = "Blog"
+other = "Blogue"
 [contact]
 other = "Contact"
+[survey]
+other = "Questionnaire"
 
-[graphicdesign]
-other = "Graphic Design"
-[webdesign]
-other = "Web Design"
-[webdevelopment]
-other = "Web Development"
-
-[partners]
-other = "Partners"
-[faqs]
-other = "FAQ's"
-[badges]
-other = "Badges"
+# Footer
+[template]
+other = "Website template by Themefisher"
+[images]
+other = "Images from Pixabay"

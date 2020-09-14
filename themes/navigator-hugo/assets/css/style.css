@@ -65,7 +65,7 @@ a:focus, a:hover {
 }
 
 .btn-main, .btn-main-sm {
-  background-color: #21D6BF;
+  background-color: #0287ca;
   background-image: linear-gradient(100deg, #016fa7, #0287ca);
   color: #fff;
   display: inline-block;
@@ -1807,10 +1807,14 @@ a:focus, a:hover {
 }
 
 
+/*===============================================
+Project Timeline Section on home page
+=================================================*/
+
 .circle {
   padding: 13px 20px;
   border-radius: 50%;
-  background-color: #22a7cc;
+  background-color: #0287ca;
   color: #fff;
   max-height: 50px;
   z-index: 2;
@@ -1822,7 +1826,7 @@ a:focus, a:hover {
 .how-it-works.row .col-2::after {
   content: "";
   position: absolute;
-  border-left: 3px solid #22a7cc;
+  border-left: 3px solid #0287ca;
   z-index: 1;
 }
 .how-it-works.row .col-2.bottom::after {
@@ -1840,15 +1844,13 @@ a:focus, a:hover {
   top: 0;
 }
 
-/*===============================================
-Project Timeline Section on home page
-=================================================*\
+
 .projtimeline div {
   padding: 0;
   height: 40px;
 }
 .projtimeline hr {
-  border-top: 3px solid #22a7cc;
+  border-top: 3px solid #0287ca;
   margin: 0;
   top: 17px;
   position: relative;
@@ -1858,7 +1860,7 @@ Project Timeline Section on home page
   overflow: hidden;
 }
 .projtimeline .corner {
-  border: 3px solid #22a7cc;
+  border: 3px solid #0287ca;
   width: 100%;
   position: relative;
   border-radius: 15px;
@@ -1880,9 +1882,12 @@ Project Timeline Section on home page
   top: calc(50% - 3px);
 }
 
+
+
+
 /*===============================================
 Survey Landscape Timeline Section
-=================================================*\
+=================================================*/
 
 .timeline {
     position: relative;
