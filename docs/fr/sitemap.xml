@@ -108,6 +108,36 @@
   </url>
   
   <url>
+    <loc>https://surveying-open-data-practices.github.io/sopd2020/fr/instrument/</loc>
+    <lastmod>2018-07-07T12:37:52+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://surveying-open-data-practices.github.io/sopd2020/en/instrument/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://surveying-open-data-practices.github.io/sopd2020/fr/instrument/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://surveying-open-data-practices.github.io/sopd2020/fr/outputs/</loc>
+    <lastmod>2018-07-07T12:37:52+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://surveying-open-data-practices.github.io/sopd2020/en/outputs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://surveying-open-data-practices.github.io/sopd2020/fr/outputs/"
+                />
+  </url>
+  
+  <url>
     <loc>https://surveying-open-data-practices.github.io/sopd2020/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
