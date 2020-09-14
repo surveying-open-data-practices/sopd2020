@@ -5,6 +5,12 @@ other = "Blog"
 other = "Contact"
 [outputs]
 other = "Data & Analyses"
+[survey]
+other = "Survey"
+[design]
+other = "Survey Design"
+[instrument]
+other = "Survey Instrument"
 
 
 # Footer
