@@ -3,8 +3,9 @@
 other = "Blog"
 [contact]
 other = "Contact"
-[design]
-other = "Design"
+[outputs]
+other = "Data & Analyses"
+
 
 # Footer
 [template]

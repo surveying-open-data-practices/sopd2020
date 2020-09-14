@@ -8,9 +8,10 @@
 <body>
   {{ $data := index .Site.Data .Site.Language.Lang }}
     {{ with $data.projtimeline }}
-      {{ if .enable }}
+      {{ if .enable }}    
+      {{ "<!-- ProjectTimeline Section Start -->" | safeHTML }}
       
-        <section class="services section-xs bg-gray" id="services" >
+        <section class="timeline section-xs bg-gray" id="timeline" >
           <div class="container">
             <div class="row">
               <div class="col">
@@ -76,8 +77,11 @@
 
           {{ end }}          
         </div>
+
        
   </section>
+          {{ "<!-- End section -->" | safeHTML }}
+
   
 
   {{ end }}

@@ -43,7 +43,7 @@ dateFormat = "January 2, 2006"
 
 home = "Home"
 logo = "images/logo.png"
-menufixed = false
+menufixed = true
 
 footerDescription = "Surveying Open Data Practices will run from June 2020 - January 2021. The project is funded by the IDRC and hosted at InSIS, Oxford University."
 footerQuicklinkTitle = "Resources"
@@ -114,20 +114,74 @@ btnText = "Take the Survey"
 [menu]
 
 # Navbar Menus
+
 [[menu.nav]]
-name    = "design"
-url     = "design"
+name    = "About" 
+weight  = 3
+hasChildren = true
+
+  [[menu.nav]]
+  name    = "Project Details"
+  url     = "#outline"
+  parent  = "About"
+  weight  = 1
+
+  [[menu.nav]]
+  name    = "How we work"
+  url     = "#values"
+  parent  = "About"
+  weight  = 2
+  
+  [[menu.nav]]
+  name    = "Project Timeline"
+  url     = "#timeline"
+  parent  = "About"
+  weight  = 3
+  
+  [[menu.nav]]
+  name    = "Team"
+  url     = "#team"
+  parent  = "About"
+  weight  = 4
+
+[[menu.nav]]
+name    = "Survey" 
 weight  = 4
+hasChildren = true
+
+  [[menu.nav]]
+  parent  = "Survey"
+  name    = "Survey Instrument"
+  url     = "instrument"
+  weight  = 1
+
+  
+  [[menu.nav]]
+  parent  = "Survey"
+  name    = "Survey Design"
+  url     = "design"
+  weight  = 2
+  
+  [[menu.nav]]
+  parent  = "Survey"
+  name    = "Survey Design"
+  url     = "design"
+  weight  = 2
+  
+[[menu.nav]]
+name    = "outputs" 
+weight  = 5
+url = "outputs"
 
 [[menu.nav]]
 name    = "blog"
 url     = "blog"
-weight  = 5
+weight  = 6
 
 [[menu.nav]]
 name    = "contact"
 url     = "contact"
-weight  = 6
+weight  = 7
 
 
 # Footer Quick links Menu

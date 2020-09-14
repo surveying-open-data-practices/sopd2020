@@ -93,6 +93,21 @@
   </url>
   
   <url>
+    <loc>https://surveying-open-data-practices.github.io/sopd2020/en/outputs/</loc>
+    <lastmod>2018-07-07T12:37:52+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://surveying-open-data-practices.github.io/sopd2020/fr/outputs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://surveying-open-data-practices.github.io/sopd2020/en/outputs/"
+                />
+  </url>
+  
+  <url>
     <loc>https://surveying-open-data-practices.github.io/sopd2020/en/design/</loc>
     <lastmod>2018-07-07T12:37:52+06:00</lastmod>
     <xhtml:link
@@ -104,6 +119,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://surveying-open-data-practices.github.io/sopd2020/en/design/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://surveying-open-data-practices.github.io/sopd2020/en/instrument/</loc>
+    <lastmod>2018-07-07T12:37:52+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://surveying-open-data-practices.github.io/sopd2020/fr/instrument/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://surveying-open-data-practices.github.io/sopd2020/en/instrument/"
                 />
   </url>
   
