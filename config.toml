@@ -116,49 +116,49 @@ btnText = "Take the Survey"
 # Navbar Menus
 
 [[menu.nav]]
-name    = "About" 
+name    = "about" 
 weight  = 3
 hasChildren = true
 
   [[menu.nav]]
-  name    = "Project Details"
-  url     = "en/#outline"
-  parent  = "About"
+  name    = "details"
+  url     = "#outline"
+  parent  = "about"
   weight  = 1
 
   [[menu.nav]]
-  name    = "How we work"
-  url     = "en/#values"
-  parent  = "About"
+  name    = "values"
+  url     = "#values"
+  parent  = "about"
   weight  = 2
   
   [[menu.nav]]
-  name    = "Project Timeline"
-  url     = "en/#timeline"
-  parent  = "About"
+  name    = "timeline"
+  url     = "#timeline"
+  parent  = "about"
   weight  = 3
   
   [[menu.nav]]
-  name    = "Team"
-  url     = "en/#team"
-  parent  = "About"
+  name    = "team"
+  url     = "#team"
+  parent  = "about"
   weight  = 4
 
 [[menu.nav]]
-name    = "Survey" 
+name    = "survey" 
 weight  = 4
 hasChildren = true
 
   [[menu.nav]]
-  parent  = "Survey"
-  name    = "Survey Instrument"
+  parent  = "survey"
+  name    = "instrument"
   url     = "instrument"
   weight  = 1
 
   
   [[menu.nav]]
-  parent  = "Survey"
-  name    = "Survey Design"
+  parent  = "survey"
+  name    = "design"
   url     = "design"
   weight  = 2
   

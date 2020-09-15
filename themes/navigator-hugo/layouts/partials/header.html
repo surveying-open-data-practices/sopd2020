@@ -33,11 +33,11 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
-                                    {{ .Name }}
+                                    {{ i18n .Name }}
                                 </a>
                                 <div class="dropdown-menu">
                                     {{ range .Children }}
-                                    <a class="dropdown-item" href="{{ .URL | absURL }}">{{ .Name }}</a>
+                                    <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ i18n .Name }}</a>
                                     {{ end }}
                                 </div>
                             </li>
