@@ -11,6 +11,16 @@ other = "Survey"
 other = "Survey Design"
 [instrument]
 other = "Survey Instrument"
+[about]
+other = "About"
+[details]
+other = "Project Details"
+[values]
+other = "How we Work"
+[timeline]
+other = "Project Timeline"
+[team]
+other = "Team"
 
 
 # Footer
