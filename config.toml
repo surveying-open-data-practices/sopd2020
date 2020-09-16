@@ -56,8 +56,9 @@ enable  = true
 heading = "Surveying Open Data Practices in Research 2020 - Africa"
 description = "The Internet and progress in digital technologies are increasingly shifting the logic underlying science and research from closed to open systems. This change is affecting even the way data are managed, used and shared. This project will aim to capture the current landscape of open data practices in research.  The survey covers eight African countries including Uganda and Ethiopia from East Africa; Burkina Faso and Senegal from West Africa and Botswana, Malawi, Mozambique and Zimbabwe from Southern Africa."
 button  = true
-btnText = "Take the Survey Now"
-btnURL  = "https://oxford.onlinesurveys.ac.uk/idrc-surveying-open-data-practices-in-africa"
+btnText = "Take the Survey"
+btnSubtext = "Coming soon"
+btnURL  = ""
 videoThumb = "images/slider/video-player-thumb.png"
 videoURL   = "https://youtu.be/Y1X0xtB_JcY"
 
