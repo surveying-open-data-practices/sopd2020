@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://surveying-open-data-practices.github.io/sopd2020/fr/</loc>
-    <lastmod>2020-07-14T12:22:40+06:00</lastmod>
+    <lastmod>2020-07-08T12:22:40+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,36 +14,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://surveying-open-data-practices.github.io/sopd2020/fr/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/fr/blog/review-existing-open-data-surveys/</loc>
-    <lastmod>2020-07-14T12:22:40+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/blog/review-existing-open-data-surveys/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/blog/review-existing-open-data-surveys/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/fr/blog/rda-ig-survey-open-data-practices/</loc>
-    <lastmod>2020-07-09T12:22:40+06:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/blog/rda-ig-survey-open-data-practices/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/blog/rda-ig-survey-open-data-practices/"
                 />
   </url>
   
