@@ -1,0 +1,68 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.outputs }}
+    {{ if .enable }}
+    {{ "<!-- About Section Start -->" | safeHTML }}
+    <section class="about section-sm" id="about">
+        <div class="container">
+            {{ range .item }}
+                {{ if .positionRight }}
+                    <div class="row mt-50 justify-content-center">
+                        <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
+                            <div class="content">
+                                <h2>{{ .title }}</h2>
+                                <p>
+                                    {{ .description }}
+                                </p>
+                                <p>
+                                  <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                                    <li class="list-inline-item">
+                                      <a href="{{ with .btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .btnText }}{{.}}{{ end }}</a>
+                                    </li>
+
+                  </ul>
+                                     <p><em>{{ .disclaimer }} </em></p>
+                    {{ if .twitter }}
+                       <a href="https://twitter.com/SODP_IDRC?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">{{ .follow }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    {{ end }}
+  
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-sm-12 text-center">
+                            <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
+                        </div>
+                    </div>
+                {{ else }}
+                    <div class="row mb-50 justify-content-center">
+                        <div class="col-md-5 col-sm-12 text-center offset-md-1">
+                            <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <div class="content">
+                                <h2>{{ .title }}</h2>
+                                <p>
+                                    {{ .description }}
+                                </p>
+                                <p>
+                  <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                    <li class="list-inline-item">
+                      <a href="{{ with .btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .btnText }}{{.}}{{ end }}</a>
+                    </li>
+                  </ul>
+                  <p><em>{{ .disclaimer }}</em></p>
+                    {{ if .twitter }}
+                       <a href="https://twitter.com/SODP_IDRC?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">{{ .follow }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    {{ end }}
+  
+
+
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
+    {{"<!-- About section End -->" | safeHTML}}
+    {{ end }}
+{{ end }}

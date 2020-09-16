@@ -1,0 +1,32 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : images/outputs/interactive-viz.png
+    title : Interactive data visualisation (Shiny App)
+    description : >
+      We will provide an interactive web app built in R (Shiny) so that you can explore the data.
+    button  : true
+    btnText : "View the Shiny app - COMING SOON"
+    btnSubtext : "Coming Soon - Please follow us on Twitter to be notified when the survey goes live"
+    btnURL  : ""
+    twitter : true
+  - positionRight : true
+    image : images/outputs/data.jpg
+    title : Raw data
+    description : >
+      The raw data is anonymous and will be shared via an online repository to facilitate data re-use and citation.
+    button  : true
+    btnText : "Access the data - COMING SOON"
+    btnSubtext : "Coming Soon - Please follow us on Twitter to be notified when the survey goes live"
+    btnURL  : ""
+    twitter : true
+  - positionRight : false
+    image : images/outputs/script.png
+    title : Analysis scripts
+    description : >
+      All R scripts written to clean, analyse, and visualise the data will be shared via Github.
+    button  : true
+    btnText : "View analysis scripts - COMING SOON"
+    btnSubtext : "Coming Soon - Please follow us on Twitter to be notified when the survey goes live"
+    btnURL  : ""
+    twitter : true
