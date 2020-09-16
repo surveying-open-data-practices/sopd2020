@@ -12,7 +12,18 @@
                 {{ with .Site.Params.aboutSm.description }}
                     <p>{{ . | markdownify }}</p>
                 {{ end }}
+                
+                {{ if .Site.Params.aboutSm.button }}
+                  <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                    <li class="list-inline-item">
+                      <a href="{{ with .Site.Params.aboutSm.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.aboutSm.btnText }}{{.}}{{ end }}</a>
+                    </li>
+                  </ul>
+                {{ end }}
             </div>
+            
+
+
         </div>
     </div>
 </section>
