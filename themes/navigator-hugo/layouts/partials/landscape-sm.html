@@ -6,15 +6,17 @@
       
         <section class="about-2 section bg-gray" id="landscape">
           <div class="container">
-            <div class="row">
-              {{ with .description }}
-                <h4><em> {{ . }} </em></h4>
-              {{ end }}
-                <p> <a href=" {{ .link }}"> {{ .action }} </a> &nbsp; </p>
-              {{ with .disclaimer }}
-                <p> ({{ . }}) </p>
-              {{ end }}
-            </div>
+                <div class="title text-center">
+                  {{ with .description }}
+                    <p>{{.}}</p>
+                  {{ end }}
+                  <br>
+                  <p> <a href=" {{ .link }}"> {{ .action }} </a> &nbsp; </p>
+                  <br>
+                  {{ with .disclaimer }}
+                    <p> <em>({{ . }})</em> </p>
+                  {{ end }}
+                </div>
           </div>
         </section>
         

@@ -56,8 +56,8 @@ enable  = true
 heading = "Surveying Open Data Practices in Research 2020 - Africa"
 description = "The Internet and progress in digital technologies are increasingly shifting the logic underlying science and research from closed to open systems. This change is affecting even the way data are managed, used and shared. This project will aim to capture the current landscape of open data practices in research.  The survey covers eight African countries including Uganda and Ethiopia from East Africa; Burkina Faso and Senegal from West Africa and Botswana, Malawi, Mozambique and Zimbabwe from Southern Africa."
 button  = true
-btnText = "Read the project proposal"
-btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
+btnText = "Take the Survey Now"
+btnURL  = "https://oxford.onlinesurveys.ac.uk/idrc-surveying-open-data-practices-in-africa"
 videoThumb = "images/slider/video-player-thumb.png"
 videoURL   = "https://youtu.be/Y1X0xtB_JcY"
 
@@ -71,6 +71,9 @@ videoURL   = "https://youtu.be/Y1X0xtB_JcY"
 enable  = true
 title   = "Open Science is more than open access to publications or data."
 description = "It is commonly recognized that the Open Science movement rests on three key pillars: open access to scientific information, open data and open engagement with society (including firms) (OECD 2015). Open Data forms a subset of Open Science activities. Open Data promotes the idea of research data being shared for scrutiny and re-analysis without unnecessary barriers. In recent years, an increasing number of funders, publishers and institutions have made commitments to fostering data sharing practices within the research community."
+button  = true
+btnText = "Read the full project proposal"
+btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
 
 # Blog Section On Homepage
 [Languages.en.params.blog]
@@ -103,9 +106,10 @@ email = "sopd@googlegroups.com"
 [Languages.en.params.cta]
 enable  = true
 bg      = "images/call-to-action/cta-1.jpg"
-title   = "Tell us about your data practices"
+title   = "Tell us about your research data practices"
 subtitle= "We aim to get wide participation from researchers and postgraduate students across the target countries (i.e. Uganda, Ethiopia, Burkina Faso, Senegal, Botswana, Malawi, Mozambique and Zimbabwe). If you are not from a country listed above, you can still participate. We will analyse all data and make the dataset available for others to analyze countries not covered in this project."
 btnText = "Take the Survey"
+link = "https://oxford.onlinesurveys.ac.uk/idrc-surveying-open-data-practices-in-africa"
 
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
@@ -122,7 +126,7 @@ hasChildren = true
 
   [[menu.nav]]
   name    = "details"
-  url     = "#outline"
+  url     = "#about"
   parent  = "about"
   weight  = 1
 

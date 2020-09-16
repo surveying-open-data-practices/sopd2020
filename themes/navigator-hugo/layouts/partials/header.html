@@ -1,9 +1,9 @@
 {{ "<!-- Fixed Navigation -->" | safeHTML }}
 {{ if .Site.Params.menufixed }}
 <section class="header navigation top-bar">
-{{ else }}
-<section class="header navigation">
-{{ end }}
+  {{ else }}
+    <section class="header navigation">
+  {{ end }}
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -21,6 +21,7 @@
                         {{ range .Site.Params.listeLangues }}
                         {{ partial "flags.html" (dict "site" $.Site "liste" .) }}
                         {{ end }}
+                     
                     </div>
                     <div class="collapse navbar-collapse" id="navigation">
                         <ul class="navbar-nav ml-auto">
@@ -54,3 +55,6 @@
         </div>
     </div>
 </section>
+</section>
+
+{{ "<!-- section end -->" | safeHTML }}

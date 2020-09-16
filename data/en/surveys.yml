@@ -1,5 +1,5 @@
 enable  : true
-topTitle: 
+topTitle: Previous open science/data surveys
 title   : Design
 description: >
   Many surveys related to open science, open data, and open access have been developed over the years. 
@@ -11,10 +11,6 @@ disclaimer: >
   This is a work in progress - we're trying to be as transparent as possible throughout the research process.
 action: View live document.
 y2020 : 
-    - title      : Surveying Open Data Practices
-      link       : https://surveying-open-data-practices.github.io/sopd2020/
-      description: >
-        The current project is hosted at InSIS at Oxford University and funded through the IDRC.
     - title      : Global Consultation on Open Science
       link       : https://en.unesco.org/science-sustainable-future/open-science/consultation
       description: > 
