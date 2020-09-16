@@ -1,0 +1,29 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.instrument }}
+    {{ if .enable }}
+        {{ "<!-- Start Instrument -->" | safeHTML }}
+<section class="contact-us section bg-gray" id="instrument">
+    
+
+    <div class="container">
+        <div class="row">
+                {{ range .item }}
+            <div class="col-12 col-md-4">
+                <div class="phone-block contact-meta-block">
+                    <i class="{{ .icon }}"></i>
+                    <h4><a href="{{ .link }}">{{ .title }}</a></h4>
+                    <p><em>{{ .disclaimer }} {{ .follow }}</em></p>
+                    {{ if .twitter }}
+                       <a href="https://twitter.com/SODP_IDRC?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">{{ .follow }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    {{ end }}
+                </div>
+            </div>
+                {{ end }}
+        </div>
+
+    </div>
+    
+
+</section>
+{{ end }}
+{{ end }}

@@ -1,0 +1,19 @@
+enable  : true
+item:
+  - icon  : tf-ion-compose
+    title : Complete the Survey
+    link  : 
+    disclaimer: Not active yet - Please follow us on Twitter to be notified when the survey goes live
+    twitter: true
+  - icon  : tf-ion-eye
+    title : View the Survey
+    link  :
+    twitter: true
+    disclaimer: Not active yet - Please follow us on Twitter to be notified when the survey goes live
+  - icon  : tf-ion-share
+    title : Share the Survey
+    link  : 
+    disclaimer: Not active yet - Please follow us on Twitter to be notified when the survey goes live
+    twitter: true
+
+
