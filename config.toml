@@ -57,8 +57,8 @@ heading = "Surveying Open Data Practices in Research 2020 - Africa"
 description = "The Internet and progress in digital technologies are increasingly shifting the logic underlying science and research from closed to open systems. This change is affecting even the way data are managed, used and shared. This project will aim to capture the current landscape of open data practices in research.  The survey covers eight African countries including Uganda and Ethiopia from East Africa; Burkina Faso and Senegal from West Africa and Botswana, Malawi, Mozambique and Zimbabwe from Southern Africa."
 button  = true
 btnText = "Take the Survey"
-btnSubtext = "Coming soon"
-btnURL  = ""
+btnSubtext = ""
+btnURL  = "instrument"
 videoThumb = "images/slider/video-player-thumb.png"
 videoURL   = "https://youtu.be/Y1X0xtB_JcY"
 
@@ -110,7 +110,7 @@ bg      = "images/call-to-action/cta-1.jpg"
 title   = "Tell us about your research data practices"
 subtitle= "We aim to get wide participation from researchers and postgraduate students across the target countries (i.e. Uganda, Ethiopia, Burkina Faso, Senegal, Botswana, Malawi, Mozambique and Zimbabwe). If you are not from a country listed above, you can still participate. We will analyse all data and make the dataset available for others to analyze countries not covered in this project."
 btnText = "Take the Survey"
-link = "https://oxford.onlinesurveys.ac.uk/idrc-surveying-open-data-practices-in-africa"
+link = "instrument"
 
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
