@@ -1,29 +1,43 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
-{{ with $data.instrument }}
-    {{ if .enable }}
-        {{ "<!-- Start Instrument -->" | safeHTML }}
-<section class="contact-us section bg-gray" id="instrument">
-    
+    {{ with $data.instrument }}
+        {{ if .enable }}
+            {{ "<!-- Start Instrument -->" | safeHTML }}
+                <section class="contact-us section bg-gray" id="instrument">
+                    <div class="container">
+                        <div class="row">
+                            {{ range .item }}
+                                <div class="col-12 col-md-4">
+                                    <div class="phone-block contact-meta-block">
+                                        <i class="{{ .icon }}"></i>
+                                        <h4>{{ .title }}</h4>
+                                        <p><em>{{ .disclaimer }}</em></p>
+                                        {{ if .links }}
+                                        <br>
+                                        <h6><a href="{{ .en_link }}">English Version</a></h6>
+                                        <h6><a href="{{ .fr_link }}">Version Française</a></h6>
+                                        <h6><a href="{{ .po_link }}">Versão em português</a></h6>
+                                        <br>
+                                        {{ end }}
 
-    <div class="container">
-        <div class="row">
-                {{ range .item }}
-            <div class="col-12 col-md-4">
-                <div class="phone-block contact-meta-block">
-                    <i class="{{ .icon }}"></i>
-                    <h4><a href="{{ .link }}">{{ .title }}</a></h4>
-                    <p><em>{{ .disclaimer }} {{ .follow }}</em></p>
-                    {{ if .twitter }}
-                       <a href="https://twitter.com/SODP_IDRC?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">{{ .follow }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    {{ end }}
-                </div>
-            </div>
-                {{ end }}
-        </div>
-
-    </div>
-    
-
-</section>
-{{ end }}
-{{ end }}
+                                        {{ if .twitter_mention }}
+                                            <a class="twitter-share-button"
+  href="{{ .en_tweet }}" data-size="large">
+Share via Twitter</a> <em>(English)</em><br>
+                                            <a class="twitter-share-button"
+  href="{{ .fr_tweet }}" data-size="large">
+Share via Twitter</a> <em>(Française)</em><br>
+                                            <a class="twitter-share-button"
+  href="{{ .po_tweet }}" data-size="large">
+Share via Twitter</a> <em>(Português)</em><br>
+                                            <br>
+                                        {{ end }}
+                                        
+                                        <a href="https://twitter.com/SODP_IDRC?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">{{ .follow }}</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                    </div>
+                                </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </section>
+            {{ end }}
+        {{ end }}
