@@ -61,7 +61,7 @@ btnSubtext = ""
 btnURL  = "instrument"
 videoThumb = "images/slider/video-player-thumb.png"
 videoURL   = "https://youtu.be/Y1X0xtB_JcY"
-
+videoMention = "Video used with courtesy of OCSDNet"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -71,7 +71,7 @@ videoURL   = "https://youtu.be/Y1X0xtB_JcY"
 [Languages.en.params.aboutSm]
 enable  = true
 title   = "Open Science is more than open access to publications or data."
-description = "It is commonly recognized that the Open Science movement rests on three key pillars: open access to scientific information, open data and open engagement with society (including firms) (OECD 2015). Open Data forms a subset of Open Science activities. Open Data promotes the idea of research data being shared for scrutiny and re-analysis without unnecessary barriers. In recent years, an increasing number of funders, publishers and institutions have made commitments to fostering data sharing practices within the research community."
+description = "Nowadays, it is recognized that, considered together, the three following dimensions of openness constitute Open Science: openness to publications and data, openness to society, and openness to excluded knowledges and epistemologies (Chan, Leslie et al. 2020). This project focuses on Open Data, a subset of Open Science that promotes the idea of research data being shared for scrutiny and re-analysis without unnecessary barriers. In recent years, an increasing number of funders, publishers and institutions have made commitments to fostering data sharing practices within the research community."
 button  = true
 btnText = "Read the full project proposal"
 btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
