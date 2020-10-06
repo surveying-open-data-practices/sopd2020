@@ -1,0 +1,51 @@
+enable  : true
+topTitle: 
+title   : Timeline of Activities
+subtitle: The project builds on work from the RDA Interest Group for Surveying Open Data Practices and many others. The core team members for the 2020 African survey are listed below.
+item:
+  - number1: 1
+    headline1: Early 2020 - Preparation
+    description1: >
+        Prepare project proposal, administrative tasks, project preparation
+    number2: 2
+    headline2: June/July 2020 - Landscape exploration
+    description2: >
+      Analysis of existing surveys, developing of survey instrument, 
+      landscaping study of current data sharing regulations and legislations in Africa
+      
+  - number1: 3
+    headline1: June/July 2020 - Stakeholders
+    description1: >
+        Prepare project proposal, administrative tasks, project preparation
+    number2: 4
+    headline2: July/August 2020 - Ethics
+    description2: >
+      Preparation/submission of ethics review and engagement with national ethics committees (or similar) 
+      in the survey countries and submission of applications (where appropriate)
+      
+  - number1: 5
+    headline1: July/August 2020 - Survey Preparation
+    description1: >
+        Translation of survey materials and preparation of online survey platform
+    number2: 6
+    headline2: August 2020 - Pilot Rollout
+    description2: >
+      Piloting of survey in-country and amendments to survey where necessary
+      
+  - number1: 7
+    headline1: September-November 2020 - Survey Rollout
+    description1: >
+        Dissemination of survey, collection of data, data preparation, analysis & visualisation
+    number2: 8
+    headline2: November 2020 - Presentation @ Research Data Alliance Plenary
+    description2: >
+      Presentation of preliminary data at RDA Plenary online
+
+  - number1: 9
+    headline1: November-December 2020 - Analysis & Dissemination
+    description1: >
+        Continued analysis of data and preparation of feedback documents and articles
+    number2: 10
+    headline2: January 2021 - Project Close-out
+    description2: >
+      Wrapping up reporting, finalising website, feedback to stakeholders

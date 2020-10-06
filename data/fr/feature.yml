@@ -1,0 +1,19 @@
+enable  : true
+topTitle: 
+title   : How we work
+subtitle: Over the past few years several communities have been working on various aspects of open data. Our survey is built on the work that is out there, to which we have added aspects of local context. All information related to this project will be open.  
+item  :
+  - icon  : tf-ion-clipboard
+    title : Build on Existing Work
+    description : >
+      We're building on existing global and African open science and open data surveys that were conducted in the past.
+
+  - icon  : tf-ion-share
+    title : Share Information
+    description : >
+      The survey instrument, data, analysis scripts, and website template will be made available under open licenses to facilitate re-use.
+
+  - icon  : tf-puzzle
+    title : Prioritise Interoperability
+    description : >
+      The project will attempt to release a modular and interoperable bank of questions that can be re-used by everyone to develop new surveys.
