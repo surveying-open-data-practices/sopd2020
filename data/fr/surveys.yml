@@ -1,23 +1,16 @@
 enable  : true
-topTitle: 
+topTitle: Previous open science/data surveys
 title   : Design
-subtitle: >
-  Over the past few years several communities have been working on various aspects of open data. 
-  Our survey is built on the work that is out there, to which we have added aspects of local context. 
-  All information related to this project will be open.  
 description: >
   Many surveys related to open science, open data, and open access have been developed over the years. 
   We've been sorting and comparing the questions and are developing a databank of pre-existing survey questions 
   that can be used for future surveys about data sharing practices. 
-  A <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPjl7OB55OIqUN-VpP3sEPG8_oO8E04ErkF_1ucaKYs9Ny_4djG0u-g2wp0DbTCI2fZwlhdN1YRhq-/pubhtml?gid=0&single=true">Google Sheet is available</a> 
-  where you can view the process of comparison. 
+  A Google Sheet is available where you can view the process of comparison. 
+link: <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPjl7OB55OIqUN-VpP3sEPG8_oO8E04ErkF_1ucaKYs9Ny_4djG0u-g2wp0DbTCI2fZwlhdN1YRhq-/pubhtml?gid=0&single=true
 disclaimer: >
   This is a work in progress - we're trying to be as transparent as possible throughout the research process.
-2020 : 
-    - title      : Surveying Open Data Practices
-      link       : https://surveying-open-data-practices.github.io/sopd2020/
-      description: >
-        The current project is hosted at InSIS at Oxford University and funded through the IDRC.
+action: View live document.
+y2020 : 
     - title      : Global Consultation on Open Science
       link       : https://en.unesco.org/science-sustainable-future/open-science/consultation
       description: > 
@@ -31,25 +24,25 @@ disclaimer: >
         The project was initiated by the Committee for Open Science. 
         Its aim is to better understand how researchers use digital tools and research data in French 
         scientific communities.
-2019 :
+y2019 :
     - title      : The State of Open Data
       link       : https://www.digital-science.com/resources/portfolio-reports/the-state-of-open-data-2019/
       description: >
         The 2019 State of Open Data report examines attitudes and experiences of researchers working with open 
         data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
-2018 :
+y2018 :
     - title      : The State of Open Data
       link       : https://digitalscience.figshare.com/articles/The_State_of_Open_Data_Report_2018/7195058/
       description: >
         The 2018 State of Open Data report examines attitudes and experiences of researchers working 
         with open data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
-2017 :
+y2017 :
     - title      : The State of Open Data
       link       : https://figshare.com/articles/_/5481187
       description: >
         The 2017 State of Open Data report examines attitudes and experiences of researchers working with open 
         data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
-2017 :
+y2016 :
     - title      : The State of Open Data
       link       : https://knowledge.figshare.com/articles/item/state-of-open-data-2016
       description: >
@@ -86,7 +79,7 @@ disclaimer: >
       description: >
         The 2016 State of Open Data report examines attitudes and experiences of researchers working with 
         open data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
-2015 :
+y2015 :
     - title      : User requirements for national research and education networks for research in West and Central Africa
       link       : https://journals.sagepub.com/doi/full/10.1177/0266666918774113
       description: >
@@ -105,7 +98,7 @@ disclaimer: >
       description: >
         The survey asked about tool usage for 17 research activities and stance about open access and 
         open science. It was created by Bianca Kramer and Jeroen Bosman from Utrecht University.
-2014 :
+y2014 :
     - title      : Open Data in Global Environmental Research
       link       : https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146695
       description: >

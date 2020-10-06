@@ -1,10 +1,27 @@
 # Navigation bar
 [blog]
-other = "Blogue"
+other = "Blog"
 [contact]
 other = "Contact"
+[outputs]
+other = "Data & Analysis"
 [survey]
-other = "Questionnaire"
+other = "Survey"
+[design]
+other = "Survey Design"
+[instrument]
+other = "Survey Instrument"
+[about]
+other = "About"
+[details]
+other = "Project Details"
+[values]
+other = "How we Work"
+[timeline]
+other = "Project Timeline"
+[team]
+other = "Team"
+
 
 # Footer
 [template]
