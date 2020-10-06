@@ -1,9 +1,9 @@
 ---
 author: Anelda van der Walt
 date: "2020-07-08T12:22:40+06:00"
-description: Lancement du projet
+description: Project kick-off
 image: images/blog/post-1.jpg
-title: L'enquête sur les pratiques de données ouvertes démarre
+title: Surveying Open Data Practices Kicks Off
 ---
 
   {{< tweet 1271062062345662466 >}}
