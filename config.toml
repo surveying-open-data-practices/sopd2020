@@ -24,7 +24,7 @@ DefaultContentLanguage = "en"
 logo = "images/logo.png"
 
 # Gestion des langues : FR / EN / NL / DE
-#[[Params.listeLangues]]
+[[Params.listeLangues]]
 code = "fr"
 [[Params.listeLangues]]
 code = "en"
@@ -186,7 +186,7 @@ link = "instrument"
 [Languages]
 
 
-############ 1 - Site en FRANCAIS  [======================= THOMAS TRANSLATE FROM HERE ========================]
+############ 1 - Site en FRANCAIS  
 [Languages.fr]
 weight = 2
 languageCode = "fr-fr"
@@ -206,7 +206,7 @@ footerLicense = "Contenu publié sous licence CC-BY-4.0, à l'exception des cont
 [Languages.fr.params.hero]
 enable  = true
 heading = "Enquête sur les pratiques relatives aux données ouvertes en recherche. Afrique - 2020"
-description = "Avec l’Internet et les avancées en technologies numériques, les logiques qui régissent la science et la recherche basculent de plus en plus des systèmes clos vers des systèmes de ouverts. Ce changement affecte même la façon dont les données sont gérées, utilisées et partagées. Ce projet vise à cerner les pratiques liées aux données ouvertes en milieu de recherche. Cette enquête concerne huit pays africains, dont l'Ouganda et l'Éthiopie en Afrique de l'Est, le Burkina Faso et le Sénégal en Afrique de l'Ouest et le Botswana, le Malawi, le Mozambique et le Zimbabwe en Afrique australe."
+description = "Avec l'Internet et les avancées en technologies numériques, les logiques qui régissent la science et la recherche basculent de plus en plus des systèmes clos vers des systèmes de ouverts. Ce changement affecte même la façon dont les données sont gérées, utilisées et partagées. Ce projet vise à cerner les pratiques liées aux données ouvertes en milieu de recherche. Cette enquête concerne huit pays africains, dont l'Ouganda et l'Éthiopie en Afrique de l'Est, le Burkina Faso et le Sénégal en Afrique de l'Ouest et le Botswana, le Malawi, le Mozambique et le Zimbabwe en Afrique australe."
 button  = true
 btnText = "Répondre au questionnaire"
 btnURL  = "outil"
@@ -219,7 +219,7 @@ videoMention = "Vidéo utilisée avec l'aimable autorisation d'OCSDNet"
 [Languages.fr.params.aboutSm]
 enable  = true
 title   = "La science ouverte va au-delà du libre accès aux publications ou aux données."
-description = "Bien que de nombreux chercheurs et organisations considèrent à tort que la "science ouverte" a la même signification que le "libre accès" aux publications et aux données; nous affirmons qu'elle est constituée des trois dimensions suivantes de l'ouverture : ouverture aux publications et aux données, ouverture à la société et ouverture aux connaissances et épistémologies exclues (Chan, Hall, Piron, Tandon et William, 2020). Notre projet se concentrera sur l'ouverture aux données (Open data) dans la recherche. L’Open Data promeut l'idée de partager les données de recherche pour les examiner et les réanalyser sans obstacles inutiles. Ceci justifierait pourquoi ces dernières années, un nombre croissant de bailleurs de fonds, d'éditeurs et d'institutions se sont engagés à favoriser les pratiques de partage des données au sein de la communauté des chercheurs."
+description = """Bien que de nombreux chercheurs et organisations considèrent à tort que la "science ouverte" a la même signification que le "libre accès" aux publications et aux données; nous affirmons qu'elle est constituée des trois dimensions suivantes de l'ouverture : ouverture aux publications et aux données, ouverture à la société et ouverture aux connaissances et épistémologies exclues (Chan, Hall, Piron, Tandon et William, 2020). Notre projet se concentrera sur l'ouverture aux données (Open data) dans la recherche. L’Open Data promeut l'idée de partager les données de recherche pour les examiner et les réanalyser sans obstacles inutiles. Ceci justifierait pourquoi ces dernières années, un nombre croissant de bailleurs de fonds, d'éditeurs et d'institutions se sont engagés à favoriser les pratiques de partage des données au sein de la communauté des chercheurs."""
 button  = true
 btnText = "Lire la description complète du projet"
 btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
@@ -233,7 +233,7 @@ title   = "Dernières nouvelles"
 [Languages.fr.params.contact]
 enable  = true
 title   = "Contactez-nous."
-subtitle= "Nous sommes très intéressés par les commentaires des différents acteurs et nous publions des articles de blogue invités sur les pratiques relatives aux données en Afrique. N'hésitez pas à nous contacter !
+subtitle= "Nous sommes très intéressés par les commentaires des différents acteurs et nous publions des articles de blogue invités sur les pratiques relatives aux données en Afrique. N'hésitez pas à nous contacter!"
 twitter = "https://twitter.com/SODP_IDRC"
 email = "sopd@googlegroups.com"
 
