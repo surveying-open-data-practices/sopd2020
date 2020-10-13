@@ -2,31 +2,31 @@ enable  : true
 item    :
   - positionRight : false
     image : images/outputs/interactive-viz.png
-    title : Interactive data visualisation (Shiny App)
+    title : Visualisation interactive des données (Shiny App)
     description : >
-      We will provide an interactive web app built in R (Shiny) so that you can explore the data.
+      Afin que vous puissiez explorer les données, nous fournirons une interface web interactive construite avec R (Shiny).
     button  : true
-    btnText : "View the Shiny app - COMING SOON"
-    btnSubtext : "Coming Soon - Please follow us on Twitter to be notified when the survey goes live"
+    btnText : "Voir l'application Shiny - à venir"
+    btnSubtext : "À venir - Suivez-nous sur Twitter pour être informé de la mise en ligne de l'enquête"
     btnURL  : ""
     twitter : true
   - positionRight : true
     image : images/outputs/data.jpg
-    title : Raw data
+    title : Données non traitées
     description : >
-      The raw data is anonymous and will be shared via an online repository to facilitate data re-use and citation.
+      Afin de faciliter leur réutilisation et leur citation, les données non traitées et anonymes seront partagées via une archive ouverte en ligne.
     button  : true
-    btnText : "Access the data - COMING SOON"
-    btnSubtext : "Coming Soon - Please follow us on Twitter to be notified when the survey goes live"
+    btnText : "Accès aux données - À venir"
+    btnSubtext : "À venir - Suivez-nous sur Twitter pour être informé de la mise en ligne de l'enquête"
     btnURL  : ""
     twitter : true
   - positionRight : false
     image : images/outputs/script.png
-    title : Analysis scripts
+    title : Scénarios d'analyse
     description : >
-      All R scripts written to clean, analyse, and visualise the data will be shared via Github.
+      Tous les scripts R écrits pour nettoyer, analyser et visualiser les données seront partagés via Github.
     button  : true
-    btnText : "View analysis scripts - COMING SOON"
-    btnSubtext : "Coming Soon - Please follow us on Twitter to be notified when the survey goes live"
+    btnText : "Voir les scénarios d'analyse - A venir"
+    btnSubtext : "À venir - Suivez-nous sur Twitter pour être informé de la mise en ligne de l'enquête"
     btnURL  : ""
     twitter : true
