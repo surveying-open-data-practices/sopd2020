@@ -25,7 +25,7 @@ logo = "images/logo.png"
 
 # Gestion des langues : FR / EN / NL / DE
 #[[Params.listeLangues]]
-#code = "fr"
+code = "fr"
 [[Params.listeLangues]]
 code = "en"
 
