@@ -1,51 +1,51 @@
 enable  : true
 topTitle: 
-title   : Timeline of Activities
-subtitle: The project builds on work from the RDA Interest Group for Surveying Open Data Practices and many others. The core team members for the 2020 African survey are listed below.
+title   : Calendrier des activités
+subtitle: Le projet s'appuie sur les travaux de nombreux groupes de travail qui s’intéressent à  l'étude des pratiques de données ouvertes, et particulièrement du groupe du groupe d'intérêt RDA. Les membres de l'équipe de travail pour l'enquête africaine 2020 sont présentés ci-dessous.
 item:
   - number1: 1
-    headline1: Early 2020 - Preparation
+    headline1: Début 2020 - Phase préparatoire 
     description1: >
-        Prepare project proposal, administrative tasks, project preparation
+        Préparation de la proposition de projet, procédures administratives, préparation du projet
     number2: 2
-    headline2: June/July 2020 - Landscape exploration
+    headline2: Juin/juillet 2020 - Phase exploratoire 
     description2: >
-      Analysis of existing surveys, developing of survey instrument, 
-      landscaping study of current data sharing regulations and legislations in Africa
+      Analyse des enquêtes existantes, choix de l’instrument d'enquête, 
+      étude descriptive des réglementations et législations actuelles en matière de partage de données en Afrique. 
       
   - number1: 3
-    headline1: June/July 2020 - Stakeholders
+    headline1: Juin/juillet 2020 - Recensement des acteurs
     description1: >
-        Prepare project proposal, administrative tasks, project preparation
+        Préparation de la proposition de projet, procédures administratives, préparation du projet
     number2: 4
-    headline2: July/August 2020 - Ethics
+    headline2: Juillet/août 2020 - Approbation Éthique
     description2: >
-      Preparation/submission of ethics review and engagement with national ethics committees (or similar) 
-      in the survey countries and submission of applications (where appropriate)
+      Préparation/demande de l'approbation éthique et vérification de la conformité auprès des comités d'éthique nationaux (ou similaires) 
+      dans les pays de l'enquête et soumission des candidatures (quand nécessaire). 
       
   - number1: 5
-    headline1: July/August 2020 - Survey Preparation
+    headline1: Juillet/août 2020 - Préparation de l'enquête
     description1: >
-        Translation of survey materials and preparation of online survey platform
+        Traduction des documents d'enquête et préparation de la plate-forme d'enquête en ligne
     number2: 6
-    headline2: August 2020 - Pilot Rollout
+    headline2: Août 2020 - Déploiement  pilote
     description2: >
-      Piloting of survey in-country and amendments to survey where necessary
+      Phase pilote de l'enquête dans certains pays et modifications des questions si nécessaire.
       
   - number1: 7
-    headline1: September-November 2020 - Survey Rollout
+    headline1: Septembre-novembre 2020 - Déploiement de l'enquête 
     description1: >
-        Dissemination of survey, collection of data, data preparation, analysis & visualisation
+        Diffusion de l'enquête, collecte de données, préparation des données, analyse et visualisation
     number2: 8
-    headline2: November 2020 - Presentation @ Research Data Alliance Plenary
+    headline2: Novembre 2020 - Présentation à la conférence de la Research Data Alliance. 
     description2: >
-      Presentation of preliminary data at RDA Plenary online
+      Présentation en ligne lors de la conférence de la Research Data Alliance. 
 
   - number1: 9
-    headline1: November-December 2020 - Analysis & Dissemination
+    headline1: Novembre-Décembre 2020 - Analyse et diffusion
     description1: >
-        Continued analysis of data and preparation of feedback documents and articles
+        Poursuite de l'analyse des données et préparation des documents et articles pour restitution de l'information. 
     number2: 10
-    headline2: January 2021 - Project Close-out
+    headline2: Janvier 2021 - Clôture du projet
     description2: >
-      Wrapping up reporting, finalising website, feedback to stakeholders
+       Conclusion des rapports, finalisation du site web, restitution d'information aux parties prenantes. 
