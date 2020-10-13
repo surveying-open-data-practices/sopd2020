@@ -190,50 +190,50 @@ link = "instrument"
 [Languages.fr]
 weight = 2
 languageCode = "fr-fr"
-title = "Surveying Open Data Practices in Research 2020"
+title = "Enquête sur les pratiques relatives aux données ouvertes en recherche. 2020"
 dateFormat = "January 2, 2006"
 
-home = "Home"
+home = "Accueil"
 logo = "images/logo.png"
 menufixed = true
 
-footerDescription = "Surveying Open Data Practices will run from June 2020 - January 2021. The project is funded by the IDRC and hosted at InSIS, Oxford University."
-footerQuicklinkTitle = "Resources"
-footerAboutTitle = "About"
-footerLicense = "Content published under CC-BY-4.0 except where original content licenses apply or when stated otherwise."
+footerDescription = "L'enquête sur les pratiques d'ouverture des données se déroulera de juin 2020 à janvier 2021. Le projet est financé par le CRDI et hébergé par l'InSIS de l'université d'Oxford."
+footerQuicklinkTitle = "Ressources"
+footerAboutTitle = "À propos"
+footerLicense = "Contenu publié sous licence CC-BY-4.0, à l'exception des contenus dont la licence d'origine est différente."
 
 # Hero Area Section
 [Languages.fr.params.hero]
 enable  = true
-heading = "Surveying Open Data Practices in Research 2020 - Africa"
-description = "The Internet and progress in digital technologies are increasingly shifting the logic underlying science and research from closed to open systems. This change is affecting even the way data are managed, used and shared. This project will aim to capture the current landscape of open data practices in research.  The survey covers eight African countries including Uganda and Ethiopia from East Africa; Burkina Faso and Senegal from West Africa and Botswana, Malawi, Mozambique and Zimbabwe from Southern Africa."
+heading = "Enquête sur les pratiques relatives aux données ouvertes en recherche. Afrique - 2020"
+description = "Avec l’Internet et les avancées en technologies numériques, les logiques qui régissent la science et la recherche basculent de plus en plus des systèmes clos vers des systèmes de ouverts. Ce changement affecte même la façon dont les données sont gérées, utilisées et partagées. Ce projet vise à cerner les pratiques liées aux données ouvertes en milieu de recherche. Cette enquête concerne huit pays africains, dont l'Ouganda et l'Éthiopie en Afrique de l'Est, le Burkina Faso et le Sénégal en Afrique de l'Ouest et le Botswana, le Malawi, le Mozambique et le Zimbabwe en Afrique australe."
 button  = true
-btnText = "Take the Survey"
-btnURL  = "instrument"
+btnText = "Répondre au questionnaire"
+btnURL  = "outil"
 videoThumb = "images/slider/video-player-thumb.png"
 videoURL   = "https://youtu.be/Y1X0xtB_JcY"
-videoMention = "Video used with courtesy of OCSDNet"
+videoMention = "Vidéo utilisée avec l'aimable autorisation d'OCSDNet"
 
 
 # About Section
 [Languages.fr.params.aboutSm]
 enable  = true
-title   = "Open Science is more than open access to publications or data."
-description = "Nowadays, it is recognized that, considered together, the three following dimensions of openness constitute Open Science: openness to publications and data, openness to society, and openness to excluded knowledges and epistemologies (Chan, Leslie et al. 2020). This project focuses on Open Data, a subset of Open Science that promotes the idea of research data being shared for scrutiny and re-analysis without unnecessary barriers. In recent years, an increasing number of funders, publishers and institutions have made commitments to fostering data sharing practices within the research community."
+title   = "La science ouverte va au-delà du libre accès aux publications ou aux données."
+description = "Bien que de nombreux chercheurs et organisations considèrent à tort que la "science ouverte" a la même signification que le "libre accès" aux publications et aux données; nous affirmons qu'elle est constituée des trois dimensions suivantes de l'ouverture : ouverture aux publications et aux données, ouverture à la société et ouverture aux connaissances et épistémologies exclues (Chan, Hall, Piron, Tandon et William, 2020). Notre projet se concentrera sur l'ouverture aux données (Open data) dans la recherche. L’Open Data promeut l'idée de partager les données de recherche pour les examiner et les réanalyser sans obstacles inutiles. Ceci justifierait pourquoi ces dernières années, un nombre croissant de bailleurs de fonds, d'éditeurs et d'institutions se sont engagés à favoriser les pratiques de partage des données au sein de la communauté des chercheurs."
 button  = true
-btnText = "Read the full project proposal"
+btnText = "Lire la description complète du projet"
 btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
 
 # Blog Section On Homepage
 [Languages.fr.params.blog]
 enable  = true
-title   = "Recent News"
+title   = "Dernières nouvelles"
 
 # Contact Section
 [Languages.fr.params.contact]
 enable  = true
-title   = "Contact Us."
-subtitle= "We're really interested to hear from stakeholders and publish guest blog posts about open data practices in Africa. Please get in touch!"
+title   = "Contactez-nous."
+subtitle= "Nous sommes très intéressés par les commentaires des différents acteurs et nous publions des articles de blogue invités sur les pratiques relatives aux données en Afrique. N'hésitez pas à nous contacter !
 twitter = "https://twitter.com/SODP_IDRC"
 email = "sopd@googlegroups.com"
 
@@ -241,10 +241,10 @@ email = "sopd@googlegroups.com"
 [Languages.fr.params.cta]
 enable  = true
 bg      = "images/call-to-action/cta-1.jpg"
-title   = "Tell us about your research data practices"
-subtitle= "We aim to get wide participation from researchers and postgraduate students across the target countries (i.e. Uganda, Ethiopia, Burkina Faso, Senegal, Botswana, Malawi, Mozambique and Zimbabwe). If you are not from a country listed above, you can still participate. We will analyse all data and make the dataset available for others to analyze countries not covered in this project."
-btnText = "Take the Survey"
-link = "instrument"
+title   = "Parlez-nous de vos pratiques en matière de données de recherche"
+subtitle= "Nous visons une large participation des chercheurs et des étudiants de troisième cycle dans les pays cibles (Ouganda, Éthiopie, Burkina Faso, Sénégal, Botswana, Malawi, Mozambique et Zimbabwe). Si vous n'êtes pas originaire d'un pays figurant dans la liste ci-dessus, vous pouvez quand même participer. Nous analyserons toutes les données et mettrons l'ensemble des données à la disposition des autres pour qu'ils puissent analyser les pays non couverts par ce projet."
+btnText = "Répondre au questionnaire"
+link = "outil"
 
 
 

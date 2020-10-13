@@ -1,30 +1,30 @@
 # Navigation bar
 [blog]
-other = "Blog"
+other = "Blogue"
 [contact]
 other = "Contact"
 [outputs]
-other = "Data & Analysis"
+other = "Données et Analyses"
 [survey]
-other = "Survey"
+other = "Enquête"
 [design]
-other = "Survey Design"
+other = "Élaboration de l'enquête"
 [instrument]
-other = "Survey Instrument"
+other = "Outil de l'enquête"
 [about]
-other = "About"
+other = "À propos"
 [details]
-other = "Project Details"
+other = "Détails du projet"
 [values]
-other = "How we Work"
+other = "Notre méthode de travail"
 [timeline]
-other = "Project Timeline"
+other = "Calendrier des activités"
 [team]
-other = "Team"
+other = "Équipe"
 
 
 # Footer
 [template]
-other = "Website template by Themefisher"
+other = "Modèle de site web par Themefisher"
 [images]
-other = "Images from Pixabay"
+other = "Images par Pixabay"

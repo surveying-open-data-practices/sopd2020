@@ -1,112 +1,105 @@
 enable  : true
-topTitle: Previous open science/data surveys
-title   : Design
+topTitle: Enquêtes précédentes sur les données ouvertes/la science ouverte
+title   : Conception
 description: >
-  Many surveys related to open science, open data, and open access have been developed over the years. 
-  We've been sorting and comparing the questions and are developing a databank of pre-existing survey questions 
-  that can be used for future surveys about data sharing practices. 
-  A Google Sheet is available where you can view the process of comparison. 
+  Nous avons trié et comparé nos questions à partir de nombreuses enquêtes liées à la science ouverte, aux données ouvertes et au libre accès 
+  qui ont été développées au fil des ans. Par ailleurs, nous développons une banque de données de questions d'enquêtes préexistantes; 
+  elle pourra être utilisé pour de futures enquêtes sur les pratiques de partage des données. 
+  Un fichier Google est disponible où vous pouvez voir le processus de comparaison
 link: <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPjl7OB55OIqUN-VpP3sEPG8_oO8E04ErkF_1ucaKYs9Ny_4djG0u-g2wp0DbTCI2fZwlhdN1YRhq-/pubhtml?gid=0&single=true
 disclaimer: >
-  This is a work in progress - we're trying to be as transparent as possible throughout the research process.
-action: View live document.
+  Ce travail est en cours - nous essayons d'être aussi transparents que possible tout au long du processus de recherche.
+action: Voir le document en ligne.
 y2020 : 
-    - title      : Global Consultation on Open Science
+    - title      : Consultation internationale sur la science ouverte
       link       : https://en.unesco.org/science-sustainable-future/open-science/consultation
       description: > 
-        The survey is designed to collect inputs for the development of the UNESCO Recommendation on 
-        Open Science.This survey forms part of a broader process of input gathering that includes online 
-        consultations, regional and thematic meetings and numerous debates on implications, benefits and 
-        challenges of Open Science across the globe.
-    - title      : The digital practices of researchers in France
+        L'enquête est conçue pour recueillir des informations en vue de l'élaboration de la recommandation de l'UNESCO sur 
+        la science ouverte. Cette enquête fait partie d'un processus plus large de collecte de données qui comprend 
+        des consultations en ligne, des réunions régionales et thématiques et de nombreux débats sur les implications, 
+        les avantages et les défis de la science ouverte à travers le monde.
+    - title      : Les pratiques numériques des chercheurs en France
       link       : https://questions.huma-num.fr/SurveyServer/s/SOSP-FR/outilsnumeriqueschezleschercheursenFrance/questionnaire.htm
       description: >
-        The project was initiated by the Committee for Open Science. 
-        Its aim is to better understand how researchers use digital tools and research data in French 
-        scientific communities.
+        Le projet a été initié par le Comité national pour la science ouverte. 
+        Il vise à mieux comprendre comment les chercheurs utilisent les outils numériques 
+        et les données de recherche au sein des communautés scientifiques françaises. 
 y2019 :
-    - title      : The State of Open Data
+    - title      : L'état des données ouvertes
       link       : https://www.digital-science.com/resources/portfolio-reports/the-state-of-open-data-2019/
       description: >
-        The 2019 State of Open Data report examines attitudes and experiences of researchers working with open 
-        data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
+        Le rapport 2019 sur l'état des données ouvertes examine les attitudes et les expériences des chercheurs 
+        qui travaillent avec des données ouvertes. Cette étude est une collaboration entre Figshare, Digital Science et Springer Nature.
 y2018 :
-    - title      : The State of Open Data
+    - title      : L'état des données ouvertes
       link       : https://digitalscience.figshare.com/articles/The_State_of_Open_Data_Report_2018/7195058/
       description: >
-        The 2018 State of Open Data report examines attitudes and experiences of researchers working 
-        with open data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
+        Le rapport 2018 sur l'état des données ouvertes examine les attitudes et les expériences des chercheurs 
+        qui travaillent avec des données ouvertes. Cette étude est une collaboration entre Figshare, Digital Science et Springer Nature.
 y2017 :
-    - title      : The State of Open Data
+    - title      : L'état des données ouvertes
       link       : https://figshare.com/articles/_/5481187
       description: >
-        The 2017 State of Open Data report examines attitudes and experiences of researchers working with open 
-        data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
+        Le rapport 2017 sur l'état des données ouvertes examine les attitudes et les expériences des chercheurs 
+        qui travaillent avec des données ouvertes. Cette étude est une collaboration entre Figshare, Digital Science et Springer Nature.
 y2016 :
-    - title      : The State of Open Data
+    - title      : L'état des données ouvertes
       link       : https://knowledge.figshare.com/articles/item/state-of-open-data-2016
       description: >
-        The 2016 State of Open Data report examines attitudes and experiences of researchers working with 
-        open data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
-    - title      : Open data - The researcher perspective
+        Le rapport 2016 sur l'état des données ouvertes examine les attitudes et les expériences des chercheurs 
+        qui travaillent avec des données ouvertes. Cette étude est une collaboration entre Figshare, Digital Science et Springer Nature.
+    - title      : Données ouvertes - Le point de vue du chercheur
       link       : https://www.elsevier.com/open-science/research-data/open-data-report
       description: >
-        The Open Data report is a result of a year-long, co-conducted study between Elsevier and the Centre for Science and Technology Studies (CWTS), part of Leiden University, the Netherlands.  The study is based on a complementary methods approach consisting of a quantitative analysis of bibliometric and publication data, a global survey of 1,200 researchers and three case studies including in-depth interviews with key individuals involved in data collection, analysis and deposition in the fields of soil science, human genetics and digital humanities.
-    - title      : Towards Open Research - Practices, experiences, barriers & opportunities
+        Le rapport Open Data est le résultat d'une étude d'un an, menée conjointement par Elsevier et le Centre for Science and Technology Studies (CWTS) qui fait partie de l'université de Leiden, aux Pays-Bas.  L'étude est basée sur l’approche des méthodes mixtes qui consistait à une analyse quantitative des données bibliométriques et de publication, une enquête mondiale auprès de 1 200 chercheurs et trois études de cas comprenant des entretiens approfondis avec des personnes clés impliquées dans la collecte, l'analyse et le dépôt de données dans les domaines de la science du sol, de la génétique humaine et des humanités numériques.
+    - title      : Vers une recherche ouverte - Pratiques, expériences, obstacles et opportunités
       link       : https://figshare.com/articles/Survey_of_Wellcome_researchers_and_their_attitudes_to_open_research/4055448/1
       description: >
-        This study was commissioned by Wellcome Trust and investigated researchers' attitudes and 
-        behaviours towards open reesarch, examined the sharing and reuse of research data, code, and 
-        open access publications, in order to identify practical actions the Wellcome Trust 
-        could take to remove or mitigate barriers and maximise the opportunities for practicing open science.
-    - title      : Wiley Open Science Researcher Insights
+        Cette étude a été faite à la demande de Wellcome Trust, afin d'identifier les actions pratiques qu'il pourrait prendre 
+        pour supprimer ou atténuer les obstacles et maximiser les possibilités de pratiquer une science ouverte. Pour ce faire, 
+        l’étude a examiné les attitudes et les comportements à l'égard de la recherche ouverte, examiné le partage et 
+        la réutilisation des données de recherche, du code et des publications en libre accès. 
+    - title      : Les perspectives de la science ouverte prour les chercheurs: un enquête de Wiley
       link       : https://www.wiley.com/network/researchers/licensing-and-open-access/open-science-trends-you-need-to-know-about
       description: >
-        In September 2016, Wiley contacted approximately 55,000 of their authors across many disciplines and 
-        received more than 4,600 responses. The survey effort focused on Open Science, broadly aiming to 
-        help them understand how researchers approach open access requirements, manage data, and participate 
-        in the sharing and archiving of their research.
-    - title      : Daily Research Challenges in African Laboratories
+        En septembre 2016, Wiley a contacté environ 55 000 de leurs auteurs dans de nombreuses disciplines et a reçu plus de 4 600 réponses. 
+        L'enquête s'est concentrée sur la science ouverte, avec pour objectif général de les aider à comprendre comment les chercheurs 
+        abordent les exigences du libre accès, gèrent les données et participent au partage et à l'archivage de leurs recherches.
+    - title      : Les défis quotidiens de la recherche dans les laboratoires africains
       link       :
       description: >
-        This study was performed by researchers from University of Witwatersrand (South Africa) and 
-        NEPAD-SANBio and funded through the International Network for the Availability of Scientific 
-        Publications. 
-        The survey interrogated not only perceptions of data sharing amongst LMIC scientists, but also how
-         these are connected to the research environments and daily challenges experienced by them.
-    - title      : The State of Open Data
-      link       : https://knowledge.figshare.com/articles/item/state-of-open-data-2016
-      description: >
-        The 2016 State of Open Data report examines attitudes and experiences of researchers working with 
-        open data. The study is a collaboration between Figshare, Digital Science, and Springer Nature.
+        Cette étude a été réalisée par des chercheurs de l'Université du Witwatersrand (Afrique du Sud) et NEPAD-SANBio, 
+        avec le financement du  Réseau international pour la disponibilité des données scientifiques et des Publications. 
+        L'enquête a interrogé non seulement les perceptions du partage des données parmi les scientifiques des PRFM, 
+        mais aussi la manière dont ces derniers sont liés à l'environnement de la recherche et aux défis quotidiens qu'ils rencontrent.
 y2015 :
-    - title      : User requirements for national research and education networks for research in West and Central Africa
+    - title      : Exigences des utilisateurs vis-à-vis des réseaux nationaux pour la recherche et l'éducation en Afrique de l'Ouest et Centrale
       link       : https://journals.sagepub.com/doi/full/10.1177/0266666918774113
       description: >
-        In 2015 the West and Central African Research and Education Network (WACREN) conducted a survey to 
-        attempt to discover what NREN services are wanted by end users with respect to developing an NREN 
-        services roadmap in the region. This work was partly supported by the H2020 TransAfrican Network 
-        Development (TANDEM) and the H2020 Energising Scientific Endeavour Through Science Gateways and 
-        e-infrastructures in Africa (Sci-GaIA) projects. 
-    - title      : Obstacles to the adoption of open access and open science - data from a survey of researchers and students in Francophone Africa and Haiti
+        En 2015, le Réseau de recherche et d'éducation de l'Afrique de l'Ouest et Centrale (WACREN), a mené une enquête pour 
+        tenter de découvrir quels sont les services NREN souhaités par les utilisateurs finaux; ceci en vue de développer 
+        une feuille de route des services NREN dans la région. Ce travail a été en partie soutenu par le Réseau TransAfricain H2020 
+        (TANDEM) et l'initiative H2020 de dynamisation des activités scientifiques par le biais de passerelles scientifiques et de 
+        les projets d'e-infrastructures en Afrique (Sci-GaIA). 
+    - title      : Obstacles à l'adoption du libre accès et de la science ouverte - données issues d'une enquête auprès de chercheurs et d'étudiants en Afrique francophone et en Haïti
       link       : http://www.projetsoha.org/?page_id=1020
       description: > 
-        The SOHA project, launched in 2015, designed an online survey to understand the potential 
-         opportunities and barriers for the uptake of fair open science in French-Speaking Haiti/Africa.
-    - title      : Innovations in scholarly communication survey
+        Le projet SOHA a initié en 2015, une enquête en ligne pour comprendre le potentiel,les opportunités 
+        et les obstacles à l'adoption de la science ouverte équitable en Haïti/Afrique francophone.
+    - title      : Enquête sur les innovations en matière de communication scientifique académique. 
       link       : https://f1000research.com/articles/5-692/v1
       description: >
-        The survey asked about tool usage for 17 research activities and stance about open access and 
-        open science. It was created by Bianca Kramer and Jeroen Bosman from Utrecht University.
+        L'enquête a porté sur l'utilisation des outils pour 17 activités de recherche et sur la posture à l'égard du libre accès et de la 
+        la science ouverte. Elle a été créé par Bianca Kramer et Jeroen Bosman de l'université d'Utrecht.
 y2014 :
-    - title      : Open Data in Global Environmental Research
+    - title      : Données ouvertes dans la recherche environnementale mondiale
       link       : https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0146695
       description: >
-        The Belmont Forum’s survey on Open Data targeted the global environmental research and data infrastructure community. It highlights users’ perceptions of the term “open data”, expectations of infrastructure functionalities, and barriers and enablers for the sharing of data.
-    - title      : Changes in data sharing and data reuse practices and perceptions among scientists worldwide
+        L'enquête du Forum Belmont sur les données ouvertes a ciblé la communauté mondiale de la recherche environnementale et des infrastructures de données. Elle met en lumière la perception qu'ont les utilisateurs du terme "données ouvertes", leurs attentes concernant les fonctionnalités de l'infrastructure, ainsi que les obstacles et les facteurs favorables au partage des données.
+    - title      : Évolution des pratiques et des perceptions en matière de partage et de réutilisation des données chez les scientifiques du monde entier. 
       link       : https://doi.org/10.1371/journal.pone.0134826
       description: >
-        In this study the DataONE Usability and Assessment working group addresses two primary goals... 
-        To examine the current state of data sharing and reuse perceptions and practices among research 
-        scientists as they compare to the 2009/2010 baseline study, and to examine differences in practices 
-        and perceptions across age groups, geographic regions, and subject disciplines. 
+        Dans cette étude, le groupe de travail sur l'utilisabilité et l'évaluation de DataONE se consacre à deux objectifs principaux... 
+        Examiner l'état actuel des perceptions et des pratiques en matière de partage et de réutilisation des données chez les chercheurs,
+        en les comparant à l'étude de base de 2009/2010. Et, d'examiner les différences de pratiques et les perceptions dans les différents 
+        groupes d'âge, régions géographiques et disciplines.
