@@ -4,9 +4,9 @@ item:
     title     : Complete the Survey
     links     : true
     en_link   : https://oxford.onlinesurveys.ac.uk/idrc-surveying-open-data-practices-in-africa-copy
-    fr_link   : 
-    po_link   :
-    disclaimer: French and Portuguese versions available soon.
+    fr_link   : https://oxford.onlinesurveys.ac.uk/idrc-surveying-open-data-practices-in-africa-2020-french
+    po_link   : https://oxford.onlinesurveys.ac.uk/idrc-surveying-open-data-practices-in-africa-2020-french
+    disclaimer: Survey now available in English, French & Portuguese!
     twitter_follow: true
     twitter_mention: false
   - icon      : tf-ion-eye
