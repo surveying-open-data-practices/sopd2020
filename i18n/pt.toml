@@ -1,0 +1,30 @@
+# Navigation bar
+[blog]
+other = "Blog"
+[contact]
+other = "Contacto"
+[outputs]
+other = "Dados & Analise"
+[survey]
+other = "Inquérito"
+[design]
+other = "Design do Inquérito"
+[instrument]
+other = "Ferramenta do Inquérito"
+[about]
+other = "Sobre"
+[details]
+other = "Detalhes do Projecto"
+[values]
+other = "Como Trabalhamos"
+[timeline]
+other = "Cronograma do Projecto"
+[team]
+other = "Equipa"
+
+
+# Footer
+[template]
+other = "Template do website por Themefisher"
+[images]
+other = "Imagens de Pixabay"

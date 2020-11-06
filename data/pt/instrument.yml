@@ -1,0 +1,32 @@
+enable  : true
+item:
+  - icon      : tf-ion-compose
+    title     : Preencha o Inquérito
+    links     : true
+    en_link   : https://oxford.onlinesurveys.ac.uk/idrc-surveying-open-data-practices-in-africa-copy
+    fr_link   : https://oxford.onlinesurveys.ac.uk/idrc-surveying-open-data-practices-in-africa-2020-french
+    po_link   : https://oxford.onlinesurveys.ac.uk/idrc-surveying-open-data-practices-in-africa-2020-portugue
+    disclaimer: Pesquisa agora disponível em inglês, francês e português!
+    twitter_follow: true
+    twitter_mention: false
+  - icon      : tf-ion-eye
+    title     : Veja o Inquérito
+    links     : false
+    en_link   : 
+    fr_link   :
+    po_link   : 
+    twitter_follow: true
+    twitter_mention: false
+    disclaimer: Uma versão em texto do inquérito será publicada brevemente. 
+  - icon  : tf-ion-share
+    title : Partilhe o Inquérito
+    links : false
+    disclaimer: Para partilhar pelo Twitter, clique na tecla abaixo..
+    twitter_follow: false
+    twitter_mention: true
+    en_tweet: >
+      https://twitter.com/intent/tweet?text=Complete+the+%40SODP_IDRC+online+survey+about+open+data+practices+if+you+are+a+researcher+in+Uganda%2C+Ethiopia%2C+Burkina+Faso%2C+Senegal%2C+Botswana%2C+Malawi%2C+Mozambique+and+Zimbabwe+-+https%3A%2F%2Foxford.onlinesurveys.ac.uk%2Fidrc-surveying-open-data-practices-in-africa-copy
+    fr_tweet: >
+      https://twitter.com/intent/tweet?text=R%C3%A9pondez+%C3%A0+l%27enqu%C3%AAte+en+ligne+%40SODP_IDRC+sur+les+pratiques+de+donn%C3%A9es+ouvertes+si+vous+%C3%AAtes+un+chercheur+en+Ouganda%2C+en+%C3%89thiopie%2C+au+Burkina+Faso%2C+au+S%C3%A9n%C3%A9gal%2C+au+Botswana%2C+au+Malawi%2C+au+Mozambique+et+au+Zimbabwe+-+https%3A%2F%2Foxford.onlinesurveys.ac.uk%2Fidrc-surveying-open-data-practices-in-africa-2020-french
+    po_tweet: >
+      https://twitter.com/intent/tweet?text=Complete+a+pesquisa+online+%40SODP_IDRC+sobre+pr%C3%A1ticas+de+dados+abertos+se+voc%C3%AA+for+um+pesquisador+em+Uganda%2C+Eti%C3%B3pia%2C+Burkina+Faso%2C+Senegal%2C+Botswana%2C+Malawi%2C+Mo%C3%A7ambique+e+Zimb%C3%A1bue+-+https%3A%2F%2Foxford.onlinesurveys.ac.uk%2Fidrc-surveying-open-data-practices-in-africa-2020-portugue

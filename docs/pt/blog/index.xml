@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogue on Inquirindo Prácticas de Dados Abertos em Investigação de 2020</title>
+    <link>https://surveying-open-data-practices.github.io/sopd2020/pt/blog/</link>
+    <description>Recent content in Blogue on Inquirindo Prácticas de Dados Abertos em Investigação de 2020</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Jul 2018 18:23:33 +0600</lastBuildDate>
+    
+	<atom:link href="https://surveying-open-data-practices.github.io/sopd2020/pt/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pushing transparency beyond the norm</title>
+      <link>https://surveying-open-data-practices.github.io/sopd2020/pt/blog/copyofpushing-transparency-beyond-the-norm/</link>
+      <pubDate>Tue, 15 Sep 2020 12:22:40 +0600</pubDate>
+      
+      <guid>https://surveying-open-data-practices.github.io/sopd2020/pt/blog/copyofpushing-transparency-beyond-the-norm/</guid>
+      <description>Many of the discussions that I have about transparency in research focus on the scrutiny of research methods and products.</description>
+    </item>
+    
+    <item>
+      <title>Surveying Open Data Practices Kicks Off</title>
+      <link>https://surveying-open-data-practices.github.io/sopd2020/pt/blog/copyofsurveying-open-data-practices-kicks-off/</link>
+      <pubDate>Wed, 08 Jul 2020 12:22:40 +0600</pubDate>
+      
+      <guid>https://surveying-open-data-practices.github.io/sopd2020/pt/blog/copyofsurveying-open-data-practices-kicks-off/</guid>
+      <description>Introducing a new IDRC project to survey data sharing practices among researchers in Africa.</description>
+    </item>
+    
+  </channel>
+</rss>

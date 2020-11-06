@@ -1,0 +1,27 @@
+enable  : true
+topTitle: 
+title   : Como trabalhamos
+subtitle: >
+  Nos últimos anos, várias comunidades têm vindo a trabalhar em vários
+  aspectos dos dados abertos. O nosso inquérito é construído sobre o trabalho que
+  já existe, ao qual adicionámos aspectos do contexto local. Todas as informações
+  relacionadas com este projecto serão abertas.
+item  :
+  - icon  : tf-ion-clipboard
+    title : "Baseie-se no Trabalho Existente"
+    description : >
+      Estamos a construir sobre uma ciência aberta global e africana existente e
+      em inquéritos de dados abertos que foram realizados no passado.
+
+  - icon  : tf-ion-share
+    title : Partilhe Informação
+    description : >
+      A ferramenta do inquérito, os dados, os guiões de análise e o template do
+      website serão disponibilizados sob licenças abertas para facilitar a
+      reutilização.
+
+  - icon  : tf-puzzle
+    title : Priorizar interoperabilidade
+    description : >
+      O projecto tentará lançar um banco de perguntas modular e interoperável
+      que pode ser reutilizado por toda a gente para desenvolver novos inquéritos.

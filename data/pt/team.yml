@@ -1,0 +1,31 @@
+enable  : true
+topTitle: 
+title   : Equipa Principal
+subtitle: >
+  O projeto baseia-se no trabalho do Grupo de Interesse RDA para o Levantamento de Prácticas de
+  Dados Abertos e muitas outras. Os membros da equipa principal para o inquérito africano de 2020 estão
+  enunciados abaixo.
+
+member  :
+  - image         : images/team/member-1.jpg
+    name          : Dr Louise Bezuidenhout
+    designation   : Líder do Projecto
+    description   : >
+      Louise é Investigadora bolseira (@InSIS) na Universidade de Oxford (@UniofOxford). Co-fundadora da @labhackathon
+    twitterURL    : https://twitter.com/loubezuidenhout
+
+  - image         : images/team/member-2.jpg
+    name          : Mboa Nkoudou Thomas
+    designation   : Desenvolvimento de inquéritos, traduções, análises, divulgação
+    description   : >
+      Thomas Mboa é investigador na área de Informação e Comunicação, com interesse no Movimento Maker, Inovação Social, Ciência Aberta e Comunicação Académica.
+    twitterURL    : https://twitter.com/Mboathomas
+
+  - image         : images/team/member-3.jpg
+    name          : Anelda van der Walt
+    designation   : Desenvolvimento de inquéritos, análise, visualização, Website
+    description   : >
+      Anelda é a fundadora da Talarify, uma consultora baseada em África que trabalha 
+      com investigadores para melhorar a sua investigação e impacto através do uso de
+      tecnologia, ciência aberta e princípios educacionais abertos.
+    twitterURL    : https://twitter.com/aneldavdw

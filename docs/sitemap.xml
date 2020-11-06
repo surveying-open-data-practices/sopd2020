@@ -9,6 +9,13 @@
 	</sitemap>
 	
 	<sitemap>
+	   	<loc>https://surveying-open-data-practices.github.io/sopd2020/pt/sitemap.xml</loc>
+		
+	   	<lastmod>2020-09-15T12:22:40+06:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
 	   	<loc>https://surveying-open-data-practices.github.io/sopd2020/fr/sitemap.xml</loc>
 		
 	   	<lastmod>2020-09-15T12:22:40+06:00</lastmod>

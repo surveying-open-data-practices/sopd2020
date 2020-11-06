@@ -1,0 +1,54 @@
+enable  : true
+topTitle: 
+title   : Cronograma de Actividades
+subtitle: >
+  O projecto baseia-se no trabalho do Grupo de Interesse RDA para Questionar Prácticas de Dados
+  Abertos e muitas outras. Os membros da equipa principal para o inquérito africano de 2020 estão
+  enunciados abaixo.
+item:
+  - number1: 1
+    headline1: Início de 2020 - Preparação
+    description1: >
+        Preparar proposta de projecto, tarefas administrativas, preparação de projecto
+    number2: 2
+    headline2: Junho/Julho de 2020 - Exploração do terreno
+    description2: >
+      Análise de inquéritos existentes, desenvolvimento da ferramenta do inquérito, estudo do panorama de
+      regulamentos e legislações actuais de partilha de dados em África
+      
+  - number1: 3
+    headline1: Junho/Julho de 2020 - Stakeholders
+    description1: >
+        Preparar proposta de projecto, tarefas administrativas, preparação de projecto
+    number2: 4
+    headline2: Julho/Agosto de 2020 - Ética
+    description2: >
+      Preparação/apresentação da revisão de ética e envolvimento com os comités de ética nacionais (ou
+      similares) nos países do inquérito e apresentação de candidaturas (quando apropriado)
+      
+  - number1: 5
+    headline1: Julho/Agosto de 2020 – Preparação do Inquérito
+    description1: >
+        Tradução dos materiais do inquérito e preparação da plataforma online do inquérito
+    number2: 6
+    headline2: Agosto de 2020 – Lançamento do Piloto
+    description2: >
+      Monitorar a investigação no país e correções ao inquérito, onde necessário
+      
+  - number1: 7
+    headline1: Setembro-Novembro de 2020 - Lançamento do Inquérito
+    description1: >
+        Divulgação do inquérito, recolha de dados, preparação de dados, análise &amp; visualização
+    number2: 8
+    headline2: Novembro de 2020 - Apresentação na Sessão Plenária da Aliança de Investigação de Dados
+    description2: >
+      Apresentação de dados preliminares na Sessão Plenária RDA online
+
+  - number1: 9
+    headline1: Novembro-Dezembro de 2020 - Análise &amp; Divulgação
+    description1: >
+        Análise contínua de dados e preparação de documentos e artigos de feedback
+    number2: 10
+    headline2: Janeiro de 2021 - Encerramento do Projecto
+    description2: >
+      Conclusão do relatório, finalização do website, feedback para os stakeholders
