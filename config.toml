@@ -28,6 +28,8 @@ logo = "images/logo.png"
 code = "fr"
 [[Params.listeLangues]]
 code = "en"
+[[Params.listeLangues]]
+code = "pt"
 
 # meta data
 author = "Surveying Open Data Practices in Research"
@@ -247,4 +249,65 @@ btnText = "Répondre au questionnaire"
 link = "outil"
 
 
+############ 2 - Site PORTUGUESE
+[Languages.pt]
+weight = 1
+languageCode = "en-us"
+title = "Inquirindo Prácticas de Dados Abertos em Investigação de 2020"
+dateFormat = "Janeiro 2, 2006"
+home = "Casa"
+
+logo = "images/logo.png"
+menufixed = true
+
+footerDescription = "As Práticas de Inquérito de Dados Abertos decorrerão de Junho de 2020 a Janeiro de 2021. O projeto é financiado pelo IDRC e alojado na InSIS, Universidade de Oxford. "
+footerQuicklinkTitle = "Recursos"
+footerAboutTitle = "Sobre"
+footerLicense = "Conteúdo publicado sob CC-BY-4.0, excepto onde as licenças de conteúdo original se aplicam ou quando indicado diferentemente."
+
+
+# Hero Area Section
+[Languages.pt.params.hero]
+enable  = true
+heading = "Prácticas de Inquérito de Dados Abertos em Investigação de 2020 - África"
+description = " A Internet e o progresso nas tecnologias digitais estão a mudar progressivamente a lógica subjacente à ciência e à investigação de sistemas fechados para sistemas abertos. Esta mudança está até mesmo a afectar a maneira como os dados são geridos, usados ​​e partilhados. Este projeto terá como objectivo capturar o panorama actual das práticas de dados abertos em investigação. O inquérito cobre oito países africanos, incluindo o Uganda e a Etiópia da África Oriental; O Burkina Faso e o Senegal da África Ocidental e o Botswana, o Malawi, Moçambique e o Zimbabwe da África Austral."
+button  = true
+btnText = "Faça o inquérito"
+btnURL  = "instrument"
+videoThumb = "images/slider/video-player-thumb.png"
+videoURL   = "https://youtu.be/Y1X0xtB_JcY"
+videoMention = "Video usado com a cortesia de OCSDNet"
+
+
+# About Section
+[Languages.pt.params.aboutSm]
+enable  = true
+title   = "Ciência Aberta é mais do que acesso aberto a publicações ou dados."
+description = "Hoje em dia, é reconhecido que, consideradas em conjunto, as três seguintes dimensões da abertura constituem a Ciência Aberta: abertura a publicações e dados, abertura à sociedade e abertura a conhecimentos e epistemologias excluídos (Chan, Leslie et al. 2020). Este projecto concentra-se em Dados Abertos, um subconjunto da Ciência Aberta que promove a ideia de os dados de investigação serem partilhados para escrutínio e reanálise sem barreiras desnecessárias. Nos últimos anos, um número crescente de financiadores, editores e instituições assumiram compromissos para fomentar prácticas de partilha de dados dentro da comunidade de investigação."
+button  = true
+btnText = "Leia a proposta completa do projeto"
+btnURL  = "https://zenodo.org/record/3961910#.Xx77jGMzais"
+
+# Blog Section On Homepage
+[Languages.pt.params.blog]
+enable  = true
+title   = "Notícias Recentes"
+
+# Contact Section
+[Languages.pt.params.contact]
+enable  = true
+title   = "Contacte-nos."
+subtitle= "Estamos realmente interessados em ouvir os stakeholders e publicar posts de blogs de convidados sobre práticas de dados abertos em África. Por favor, entre em contacto!"
+twitter = "https://twitter.com/SODP_IDRC"
+email = "sopd@googlegroups.com"
+
+
+# Call to Action Section on Home Page
+[Languages.pt.params.cta]
+enable  = true
+bg      = "images/call-to-action/cta-1.jpg"
+title   = "Conte-nos sobre as suas práticas de investigação de dados"
+subtitle= "O nosso objectivo é de ter uma ampla participação de investigadores e de estudantes de pós-graduação em todos os países-alvo (ou seja, Uganda, Etiópia, Burkina Faso, Senegal, Botswana, Malawi, Moçambique e Zimbábue). Se não é de um dos países enunciados acima, pode ainda assim participar. Analisaremos todos os dados e disponibilizaremos o conjunto de dados para que outros analisem os países não cobertos neste projeto."
+btnText = "Faça o Inquérito"
+link = "instrument"
 

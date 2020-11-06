@@ -1,0 +1,34 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : images/outputs/interactive-viz.png
+    title : Visualização de dados interativos(Shiny App)
+    description : >
+      Forneceremos um software interativo da web integrado em R (Shiny) para que
+      possa explorar os dados.
+    button  : true
+    btnText : "Veja o software Shiny – DISPONÍVEL BREVEMENTE"
+    btnSubtext : "Disponível brevemente - siga-nos no Twitter para ser notificado(a) quando o inquérito for lançado"
+    btnURL  : ""
+    twitter : true
+  - positionRight : true
+    image : images/outputs/data.jpg
+    title : Dados em bruto
+    description : >
+      Os dados em bruto são anónimos e serão partilhados através de um repositório online para facilitar
+      a reutilização e citação dos dados.
+    button  : true
+    btnText : "Aceda aos dados – DISPONÍVEL BREVEMENTE"
+    btnSubtext : "Disponível brevemente - siga-nos no Twitter para ser notificado(a) quando o inquérito for lançado"
+    btnURL  : ""
+    twitter : true
+  - positionRight : false
+    image : images/outputs/script.png
+    title : Guiões de análise
+    description : >
+      Todos os guiões R escritos para limpar, analisar e visualizar os dados serão partilhados através do Github.
+    button  : true
+    btnText : "Veja os guiões de análise – DISPONÍVEIS BREVEMENTE"
+    btnSubtext : "Disponível brevemente - siga-nos no Twitter para ser notificado(a) quando o inquérito for lançado"
+    btnURL  : ""
+    twitter : true
