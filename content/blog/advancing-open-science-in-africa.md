@@ -2,7 +2,7 @@
 author: Mboa Nkoudou Thomas
 date: "2021-01-18T12:22:40+06:00"
 description: 
-image: images/blog/post-1.jpg
+image: images/blog/post-3.jpg
 title: The importance of a common data sharing survey for advancing open science in Africa
 ---
 
