@@ -6,9 +6,8 @@ item    :
     description : >
       We will provide an interactive web app built in R (Shiny) so that you can explore the data.
     button  : true
-    btnText : "View the Shiny app - COMING SOON"
-    btnSubtext : "Coming Soon - Please follow us on Twitter to be notified when the survey goes live"
-    btnURL  : ""
+    btnText : "View the Shiny app"
+    btnURL  : "http://sodp2020.shinyapps.io/SODP-DataVisualisation?_ga=2.30856511.1610896166.1617546123-761542454.1617272566"
     twitter : true
   - positionRight : true
     image : images/outputs/data.jpg
@@ -16,9 +15,8 @@ item    :
     description : >
       The raw data is anonymous and will be shared via an online repository to facilitate data re-use and citation.
     button  : true
-    btnText : "Access the data - COMING SOON"
-    btnSubtext : "Coming Soon - Please follow us on Twitter to be notified when the survey goes live"
-    btnURL  : ""
+    btnText : "Access the data"
+    btnURL  : "https://github.com/surveying-open-data-practices/Data-analysis/tree/main/data"
     twitter : true
   - positionRight : false
     image : images/outputs/script.png
@@ -26,7 +24,6 @@ item    :
     description : >
       All R scripts written to clean, analyse, and visualise the data will be shared via Github.
     button  : true
-    btnText : "View analysis scripts - COMING SOON"
-    btnSubtext : "Coming Soon - Please follow us on Twitter to be notified when the survey goes live"
-    btnURL  : ""
+    btnText : "View analysis scripts"
+    btnURL  : "https://github.com/surveying-open-data-practices/Data-analysis"
     twitter : true
