@@ -24,5 +24,6 @@ All scripts are available on [Github](https://github.com/surveying-open-data-pra
 
 ## Interactive web app
 
-Data can be visualised interactively at http://sodp2020.shinyapps.io/SODP-DataVisualisation?_ga=2.71826451.1610896166.1617546123-761542454.1617272566
-Code for the Shiny app is available on [Github](https://github.com/surveying-open-data-practices/Data-analysis)
+Data can be visualised interactively at http://sodp2020.shinyapps.io/SODP-DataVisualisation?_ga=2.71826451.1610896166.1617546123-761542454.1617272566.
+
+Code for the Shiny app is available on [Github](https://github.com/surveying-open-data-practices/Data-analysis).
