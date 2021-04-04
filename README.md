@@ -10,6 +10,10 @@ The Internet and progress in digital technologies are increasingly shifting the 
 
 The website design is based on the [Navigator](https://github.com/gethugothemes/navigator-hugo) theme by [Themefisher](https://themefisher.com/hugo-themes) and is developed using [Hugo static website generator](https://gohugo.io/).
 
+The site was developed using R (Blogdown) and RStudio.
+
+For information about using Hugo templates in R through the Blogdown package, please use this comprehensive guide - https://bookdown.org/yihui/blogdown/.
+
 For full instructions and licensing of the template, please see https://github.com/gethugothemes/navigator-hugo.
 
 All modifications made to the original Navigator theme for this project is published under an open license and can be copied and modified for other purposes.
