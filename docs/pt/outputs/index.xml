@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dados &amp; Analise on Inquirindo Prácticas de Dados Abertos em Investigação de 2020</title>
-    <link>https://surveying-open-data-practices.github.io/sopd2020/pt/outputs/</link>
+    <link>/sopd2020/pt/outputs/</link>
     <description>Recent content in Dados &amp; Analise on Inquirindo Prácticas de Dados Abertos em Investigação de 2020</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 07 Jul 2018 12:37:52 +0600</lastBuildDate>
     
-	<atom:link href="https://surveying-open-data-practices.github.io/sopd2020/pt/outputs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/sopd2020/pt/outputs/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
