@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Inquirindo Prácticas de Dados Abertos em Investigação de 2020</title>
-    <link>https://surveying-open-data-practices.github.io/sopd2020/pt/categories/</link>
+    <link>/sopd2020/pt/categories/</link>
     <description>Recent content in Categories on Inquirindo Prácticas de Dados Abertos em Investigação de 2020</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://surveying-open-data-practices.github.io/sopd2020/pt/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/sopd2020/pt/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
