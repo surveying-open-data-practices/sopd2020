@@ -3,170 +3,240 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/pt/</loc>
-    <lastmod>2020-09-15T12:22:40+06:00</lastmod>
+    <loc>/sopd2020/pt/</loc>
+    <lastmod>2021-04-08T12:22:40+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/"
+                href="/sopd2020/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/"
+                href="/sopd2020/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://surveying-open-data-practices.github.io/sopd2020/pt/"
+                href="/sopd2020/pt/"
                 />
   </url>
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/pt/blog/copyofpushing-transparency-beyond-the-norm/</loc>
+    <loc>/sopd2020/pt/blog/survey-results-published/</loc>
+    <lastmod>2021-04-08T12:22:40+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sopd2020/en/blog/survey-results-published/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/sopd2020/fr/blog/survey-results-published/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/sopd2020/pt/blog/survey-results-published/"
+                />
+  </url>
+  
+  <url>
+    <loc>/sopd2020/pt/blog/advancing-open-science-in-africa/</loc>
+    <lastmod>2021-01-18T12:22:40+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sopd2020/en/blog/advancing-open-science-in-africa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/sopd2020/fr/blog/advancing-open-science-in-africa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/sopd2020/pt/blog/advancing-open-science-in-africa/"
+                />
+  </url>
+  
+  <url>
+    <loc>/sopd2020/pt/blog/pushing-transparency-beyond-the-norm/</loc>
     <lastmod>2020-09-15T12:22:40+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sopd2020/en/blog/pushing-transparency-beyond-the-norm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/sopd2020/fr/blog/pushing-transparency-beyond-the-norm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/sopd2020/pt/blog/pushing-transparency-beyond-the-norm/"
+                />
   </url>
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/pt/blog/copyofsurveying-open-data-practices-kicks-off/</loc>
+    <loc>/sopd2020/pt/blog/surveying-open-data-practices-kicks-off/</loc>
     <lastmod>2020-07-08T12:22:40+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/sopd2020/en/blog/surveying-open-data-practices-kicks-off/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/sopd2020/fr/blog/surveying-open-data-practices-kicks-off/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="/sopd2020/pt/blog/surveying-open-data-practices-kicks-off/"
+                />
   </url>
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/pt/blog/</loc>
+    <loc>/sopd2020/pt/blog/</loc>
     <lastmod>2018-07-07T18:23:33+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/blog/"
+                href="/sopd2020/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/blog/"
+                href="/sopd2020/fr/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://surveying-open-data-practices.github.io/sopd2020/pt/blog/"
+                href="/sopd2020/pt/blog/"
                 />
   </url>
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/pt/contact/</loc>
+    <loc>/sopd2020/pt/contact/</loc>
     <lastmod>2018-07-07T15:53:27+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/contact/"
+                href="/sopd2020/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/contact/"
+                href="/sopd2020/fr/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://surveying-open-data-practices.github.io/sopd2020/pt/contact/"
+                href="/sopd2020/pt/contact/"
                 />
   </url>
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/pt/outputs/</loc>
+    <loc>/sopd2020/pt/outputs/</loc>
     <lastmod>2018-07-07T12:37:52+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/outputs/"
+                href="/sopd2020/en/outputs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/outputs/"
+                href="/sopd2020/fr/outputs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://surveying-open-data-practices.github.io/sopd2020/pt/outputs/"
+                href="/sopd2020/pt/outputs/"
                 />
   </url>
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/pt/design/</loc>
+    <loc>/sopd2020/pt/design/</loc>
     <lastmod>2018-07-07T12:37:52+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/design/"
+                href="/sopd2020/en/design/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/design/"
+                href="/sopd2020/fr/design/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://surveying-open-data-practices.github.io/sopd2020/pt/design/"
+                href="/sopd2020/pt/design/"
                 />
   </url>
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/pt/instrument/</loc>
+    <loc>/sopd2020/pt/instrument/</loc>
     <lastmod>2018-07-07T12:37:52+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/instrument/"
+                href="/sopd2020/en/instrument/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/instrument/"
+                href="/sopd2020/fr/instrument/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://surveying-open-data-practices.github.io/sopd2020/pt/instrument/"
+                href="/sopd2020/pt/instrument/"
                 />
   </url>
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/pt/categories/</loc>
+    <loc>/sopd2020/pt/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/categories/"
+                href="/sopd2020/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/categories/"
+                href="/sopd2020/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://surveying-open-data-practices.github.io/sopd2020/pt/categories/"
+                href="/sopd2020/pt/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://surveying-open-data-practices.github.io/sopd2020/pt/tags/</loc>
+    <loc>/sopd2020/pt/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://surveying-open-data-practices.github.io/sopd2020/en/tags/"
+                href="/sopd2020/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://surveying-open-data-practices.github.io/sopd2020/fr/tags/"
+                href="/sopd2020/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
-                href="https://surveying-open-data-practices.github.io/sopd2020/pt/tags/"
+                href="/sopd2020/pt/tags/"
                 />
   </url>
   
