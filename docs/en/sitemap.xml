@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://surveying-open-data-practices.github.io/sopd2020/en/blog/survey-results-published/</loc>
+    <lastmod>2021-04-08T12:22:40+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://surveying-open-data-practices.github.io/sopd2020/en/</loc>
-    <lastmod>2021-01-18T12:22:40+06:00</lastmod>
+    <lastmod>2021-04-08T12:22:40+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -25,11 +30,31 @@
   <url>
     <loc>https://surveying-open-data-practices.github.io/sopd2020/en/blog/advancing-open-science-in-africa/</loc>
     <lastmod>2021-01-18T12:22:40+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://surveying-open-data-practices.github.io/sopd2020/pt/blog/advancing-open-science-in-africa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://surveying-open-data-practices.github.io/sopd2020/fr/blog/advancing-open-science-in-africa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://surveying-open-data-practices.github.io/sopd2020/en/blog/advancing-open-science-in-africa/"
+                />
   </url>
   
   <url>
     <loc>https://surveying-open-data-practices.github.io/sopd2020/en/blog/pushing-transparency-beyond-the-norm/</loc>
     <lastmod>2020-09-15T12:22:40+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://surveying-open-data-practices.github.io/sopd2020/pt/blog/pushing-transparency-beyond-the-norm/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -45,6 +70,11 @@
   <url>
     <loc>https://surveying-open-data-practices.github.io/sopd2020/en/blog/surveying-open-data-practices-kicks-off/</loc>
     <lastmod>2020-07-08T12:22:40+06:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://surveying-open-data-practices.github.io/sopd2020/pt/blog/surveying-open-data-practices-kicks-off/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"

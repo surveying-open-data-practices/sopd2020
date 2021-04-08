@@ -6,10 +6,19 @@
     <description>Recent content on Enquête sur les pratiques relatives aux données ouvertes en recherche. 2020</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 15 Sep 2020 12:22:40 +0600</lastBuildDate>
+    <lastBuildDate>Mon, 18 Jan 2021 12:22:40 +0600</lastBuildDate>
     
 	<atom:link href="https://surveying-open-data-practices.github.io/sopd2020/fr/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The importance of a common data sharing survey for advancing open science in Africa</title>
+      <link>https://surveying-open-data-practices.github.io/sopd2020/fr/blog/advancing-open-science-in-africa/</link>
+      <pubDate>Mon, 18 Jan 2021 12:22:40 +0600</pubDate>
+      
+      <guid>https://surveying-open-data-practices.github.io/sopd2020/fr/blog/advancing-open-science-in-africa/</guid>
+      <description>Cognizant to the fact that to build capacity within research systems in sub-Saharan Africa, a better understanding of current data sharing practices amongst African researchers is needed, the International Development Research Center (IDRC), has commissioned our team to conduct a survey on data sharing practices in Africa.</description>
+    </item>
     
     <item>
       <title>Pushing transparency beyond the norm</title>

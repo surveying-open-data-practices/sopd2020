@@ -6,10 +6,19 @@
     <description>Recent content on Surveying Open Data Practices in Research 2020</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jan 2021 12:22:40 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 08 Apr 2021 12:22:40 +0600</lastBuildDate>
     
 	<atom:link href="https://surveying-open-data-practices.github.io/sopd2020/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Survey results released</title>
+      <link>https://surveying-open-data-practices.github.io/sopd2020/en/blog/survey-results-published/</link>
+      <pubDate>Thu, 08 Apr 2021 12:22:40 +0600</pubDate>
+      
+      <guid>https://surveying-open-data-practices.github.io/sopd2020/en/blog/survey-results-published/</guid>
+      <description>Between September 2020 and January 2021, our open data practices survey targeting researchers in eight African countries was live via the JISC Online Survey Tool.</description>
+    </item>
     
     <item>
       <title>The importance of a common data sharing survey for advancing open science in Africa</title>
